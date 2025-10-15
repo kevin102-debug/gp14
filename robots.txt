@@ -1,0 +1,35 @@
+# Donnelly GP14 Championship Builds - Robots.txt
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.donnellygp14.com/sitemap.xml
+
+# Crawl delay (optional - be nice to servers)
+Crawl-delay: 1
+
+# Disallow specific paths (if any)
+# Disallow: /private/
+# Disallow: /admin/
+
+# Allow images to be indexed
+User-agent: Googlebot-Image
+Allow: /
+
+# Allow Google to index everything
+User-agent: Googlebot
+Allow: /
+
+# Allow Bing to index everything
+User-agent: Bingbot
+Allow: /
+
+# SEO-friendly configuration
+# This site is optimized for:
+# - Championship-winning GP14 sailboat builds
+# - Custom wooden boat construction
+# - GRP foil manufacturing
+# - Wooden boat repairs
+# Service areas: United Kingdom & Ireland

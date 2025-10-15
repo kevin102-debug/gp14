@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Sails GP14 Tuning Guide | Richard Estaugh Championship Settings</title>
+    <meta name="description" content="Complete GP14 tuning guide by World Champion Richard Estaugh. Precise measurements for spreaders, rig tension, mast rake, sail controls, and spinnaker setup.">
+    <meta name="keywords" content="GP14 tuning, Richard Estaugh, Speed Sails, GP14 settings, mast rake, rig tension, spreader settings, GP14 championship tuning">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .fade-in {
+            animation: fadeIn 0.6s ease-out forwards;
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-blue-50 via-white to-purple-50 min-h-screen">
+    <!-- Sticky Navigation -->
+    <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm shadow-md">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center gap-3">
+                    <i class="fas fa-trophy text-blue-600 text-2xl"></i>
+                    <span class="font-bold text-xl text-gray-800">Speed Sails Guide</span>
+                </div>
+                <div class="flex items-center gap-6">
+                    <a href="index.html" class="text-gray-600 hover:text-blue-600 transition-colors">
+                        <i class="fas fa-home mr-2"></i>Home
+                    </a>
+                    <a href="tuning-guide.html" class="text-gray-600 hover:text-blue-600 transition-colors">
+                        <i class="fas fa-wrench mr-2"></i>All Guides
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+        <div class="flex items-center gap-2 text-sm text-gray-600">
+            <a href="index.html" class="hover:text-blue-600">Home</a>
+            <i class="fas fa-chevron-right text-xs"></i>
+            <a href="tuning-guide.html" class="hover:text-blue-600">Tuning Guides</a>
+            <i class="fas fa-chevron-right text-xs"></i>
+            <span class="text-blue-600 font-semibold">Speed Sails Championship Guide</span>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="text-center mb-16 fade-in">
+            <div class="inline-block p-4 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full mb-6">
+                <i class="fas fa-trophy text-white text-6xl"></i>
+            </div>
+            <h1 class="text-5xl md:text-6xl font-bold mb-6">
+                <span class="gradient-text">Speed Sails Tuning Guide</span>
+            </h1>
+            <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed mb-4">
+                Championship-winning settings by Richard Estaugh - Multiple GP14 World and National Champion
+            </p>
+            <p class="text-lg text-gray-500 max-w-2xl mx-auto">
+                Precise measurements and controls to get the most out of your GP14 in all conditions
+            </p>
+        </div>
+
+        <!-- Introduction -->
+        <section class="mb-16 fade-in">
+            <div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl shadow-xl p-8 border-l-4 border-blue-500">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4 flex items-center gap-3">
+                    <i class="fas fa-info-circle text-blue-600"></i>
+                    About This Guide
+                </h2>
+                <p class="text-gray-700 mb-4">
+                    This tuning guide from Speed Sails is designed to help you get the most out of your GP14. Although the following measurements should enable you to set your boat up close to its ideal settings, it is worth bearing in mind that it is only a guide and <strong>minor alterations may be required for different boats and helmsmen</strong>.
+                </p>
+                <div class="bg-white rounded-lg p-4 border-l-4 border-purple-500">
+                    <p class="text-sm text-gray-700"><strong>Expert Authority:</strong> Richard Estaugh is a multiple-time GP14 World and National Champion. His expertise and championship-proven settings make this guide invaluable for serious racers.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 1: Spreader Settings -->
+        <section class="mb-16 fade-in">
+            <div class="bg-white rounded-2xl shadow-xl p-8">
+                <div class="flex items-center gap-4 mb-8">
+                    <div class="p-4 bg-blue-100 rounded-xl">
+                        <i class="fas fa-ruler-combined text-blue-600 text-3xl"></i>
+                    </div>
+                    <div>
+                        <h2 class="text-3xl font-bold text-gray-800">Spreader Settings</h2>
+                        <p class="text-gray-600">Critical measurements for mast stiffness and pre-bend</p>
+                    </div>
+                </div>
+
+                <div class="space-y-6">
+                    <p class="text-gray-700">
+                        The two spreader measurements are <strong>spreader length</strong> and <strong>spreader deflection</strong>. Spreader length controls the sideways pressure on the mast and therefore affects the mast's sideways stiffness. Spreader deflection controls the pre-bend in the mast.
+                    </p>
+
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <!-- Fat Top Mast -->
+                        <div class="bg-gradient-to-br from-amber-50 to-orange-50 rounded-xl p-6 border-2 border-amber-400">
+                            <h3 class="text-xl font-bold text-amber-900 mb-4 text-center">Fat Top Mast</h3>
+                            <div class="space-y-4">
+                                <div class="bg-white rounded-lg p-4">
+                                    <div class="flex justify-between items-center mb-2">
+                                        <span class="font-semibold text-gray-800">Spreader Length (A):</span>
+                                        <span class="text-2xl font-bold text-amber-600">360mm</span>
+                                    </div>
+                                    <p class="text-xs text-gray-600">Measured from mast side wall to shroud</p>
+                                </div>
+                                <div class="bg-white rounded-lg p-4">
+                                    <div class="flex justify-between items-center mb-2">
+                                        <span class="font-semibold text-gray-800">Spreader Deflection (B):</span>
+                                        <span class="text-2xl font-bold text-amber-600">155mm</span>
+                                    </div>
+                                    <p class="text-xs text-gray-600">Straight edge shroud-to-shroud to luff groove</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slim Top Mast -->
+                        <div class="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl p-6 border-2 border-blue-400">
+                            <h3 class="text-xl font-bold text-blue-900 mb-4 text-center">Slim Top Mast</h3>
+                            <div class="space-y-4">
+                                <div class="bg-white rounded-lg p-4">
+                                    <div class="flex justify-between items-center mb-2">
+                                        <span class="font-semibold text-gray-800">Spreader Length (A):</span>
+                                        <span class="text-2xl font-bold text-blue-600">380mm</span>
+                                    </div>
+                                    <p class="text-xs text-gray-600">Measured from mast side wall to shroud</p>
+                                </div>
+                                <div class="bg-white rounded-lg p-4">
+                                    <div class="flex justify-between items-center mb-2">
+                                        <span class="font-semibold text-gray-800">Spreader Deflection (B):</span>
+                                        <span class="text-2xl font-bold text-blue-600">150mm</span>
+                                    </div>
+                                    <p class="text-xs text-gray-600">Straight edge shroud-to-shroud to luff groove</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-blue-50 border-l-4 border-blue-500 rounded-lg p-4">
+                        <p class="text-sm text-gray-700"><strong>Note:</strong> The deflection measurement is a guide to getting the pre-bend set correctly but may need to be altered slightly (see Pre-Bend section below).</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: The Mast -->
+        <section class="mb-16 fade-in">
+            <div class="bg-white rounded-2xl shadow-xl p-8">
+                <div class="flex items-center gap-4 mb-8">
+                    <div class="p-4 bg-purple-100 rounded-xl">
+                        <i class="fas fa-flag text-purple-600 text-3xl"></i>
+                    </div>
+                    <div>
+                        <h2 class="text-3xl font-bold text-gray-800">The Mast</h2>
+                        <p class="text-gray-600">Mast positioning and pre-bend setup</p>
+                    </div>
+                </div>
+
+                <div class="space-y-6">
+                    <!-- Mast Position -->
+                    <div class="bg-gradient-to-r from-purple-50 to-pink-50 rounded-xl p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Mast Position</h3>
+                        <p class="text-gray-700 mb-4">
+                            The position to step the mast is obtained by measuring the distance (in a straight line) from the back of the transom, through the transom flap, to the furthest aft bolt in the mast step.
+                        </p>
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div class="bg-white rounded-lg p-4 border-l-4 border-purple-500">
+                                <p class="font-semibold text-gray-800 mb-2">Mark 2 GP14s:</p>
+                                <p class="text-3xl font-bold text-purple-600">2845mm</p>
+                                <p class="text-xs text-gray-600 mt-2">Transom to mast step (furthest aft bolt)</p>
+                            </div>
+                            <div class="bg-white rounded-lg p-4 border-l-4 border-pink-500">
+                                <p class="font-semibold text-gray-800 mb-2">Mark 1 Boats:</p>
+                                <p class="text-lg font-bold text-pink-600">As far back as possible</p>
+                                <p class="text-xs text-gray-600 mt-2">In the mast step</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pre-Bend Setup -->
+                    <div class="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-xl p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Pre-Bend Setup</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-start gap-3 p-4 bg-white rounded-lg">
+                                <div class="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold flex-shrink-0">1</div>
+                                <div>
+                                    <p class="text-gray-700">Hold the mast about <strong>1/3 to 1/2 out of the gate</strong> and attach the shrouds.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3 p-4 bg-white rounded-lg">
+                                <div class="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold flex-shrink-0">2</div>
+                                <div>
+                                    <p class="text-gray-700 mb-2">To check pre-bend, hold the main halyard tight against the gooseneck. The distance between the mast and the halyard at spreader level is the pre-bend.</p>
+                                    <div class="bg-blue-50 rounded-lg p-3">
+                                        <p class="font-semibold text-blue-900">Target: About 3/4 inch (19mm) pre-bend</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3 p-4 bg-white rounded-lg">
+                                <div class="w-8 h-8 bg-cyan-600 text-white rounded-full flex items-center justify-center font-bold flex-shrink-0">3</div>
+                                <div>
+                                    <p class="text-gray-700">Pre-bend can be altered by <strong>angling the spreader tips forward or aft very slightly</strong> to get the desired reading.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3 p-4 bg-white rounded-lg border-l-4 border-green-500">
+                                <div class="w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center font-bold flex-shrink-0">✓</div>
+                                <div>
+                                    <p class="text-gray-700">When you put up the genoa with <strong>400lbs of rig tension</strong> and check the pre-bend again, there should be <strong>almost no gap</strong> between the halyard and the mast (i.e. straight mast).</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Rig Tension -->
+        <section class="mb-16 fade-in">
+            <div class="bg-white rounded-2xl shadow-xl p-8">
+                <div class="flex items-center gap-4 mb-8">
+                    <div class="p-4 bg-green-100 rounded-xl">
+                        <i class="fas fa-compress-arrows-alt text-green-600 text-3xl"></i>
+                    </div>
+                    <div>
+                        <h2 class="text-3xl font-bold text-gray-800">Rig Tension</h2>
+                        <p class="text-gray-600">Adjustable control for different wind conditions</p>
+                    </div>
+                </div>
+
+                <div class="space-y-6">
+                    <div class="bg-amber-50 border-l-4 border-amber-500 rounded-lg p-4">
+                        <p class="text-gray-700">
+                            Increasing the rig tension reduces jib luff sag and straightens out the entry to the jib. This makes the jib point higher but <strong>less responsive to changes in wind strength and waves</strong> and therefore more likely to stall.
+                        </p>
+                    </div>
+
+                    <div class="bg-blue-50 rounded-lg p-4 border-l-4 border-blue-500">
+                        <p class="text-gray-700">
+                            <strong>The rig tension must be easy to adjust</strong> and the best place to locate this control is on the centreboard capping.
+                        </p>
+                    </div>
+
+                    <!-- Rig Tension Chart -->
+                    <div class="bg-gradient-to-br from-gray-50 to-slate-100 rounded-xl p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-6 text-center">Rig Tension Settings by Wind Speed</h3>
+                        <div class="grid md:grid-cols-4 gap-4">
+                            <div class="bg-white rounded-lg p-4 text-center shadow-md">
+                                <div class="mb-3">
+                                    <i class="fas fa-feather text-cyan-500 text-3xl"></i>
+                                </div>
+                                <h4 class="font-bold text-gray-800 mb-2">Drifter</h4>
+                                <p class="text-sm text-gray-600 mb-3">&lt; 5 knots</p>
+                                <p class="text-4xl font-bold text-cyan-600">300</p>
+                                <p class="text-xs text-gray-500">lbs</p>
+                            </div>
+                            <div class="bg-white rounded-lg p-4 text-center shadow-md">
+                                <div class="mb-3">
+                                    <i class="fas fa-wind text-blue-500 text-3xl"></i>
+                                </div>
+                                <h4 class="font-bold text-gray-800 mb-2">Light</h4>
+                                <p class="text-sm text-gray-600 mb-3">5-10 knots</p>
+                                <p class="text-4xl font-bold text-blue-600">350</p>
+                                <p class="text-xs text-gray-500">lbs</p>
+                            </div>
+                            <div class="bg-gradient-to-br from-green-100 to-emerald-100 rounded-lg p-4 text-center shadow-lg border-2 border-green-500">
+                                <div class="mb-3">
+                                    <i class="fas fa-star text-green-600 text-3xl"></i>
+                                </div>
+                                <h4 class="font-bold text-green-900 mb-2">Medium (Base)</h4>
+                                <p class="text-sm text-gray-700 mb-3">10-20 knots</p>
+                                <p class="text-4xl font-bold text-green-600">400</p>
+                                <p class="text-xs text-gray-600">lbs (Standard)</p>
+                            </div>
+                            <div class="bg-white rounded-lg p-4 text-center shadow-md">
+                                <div class="mb-3">
+                                    <i class="fas fa-bolt text-red-500 text-3xl"></i>
+                                </div>
+                                <h4 class="font-bold text-gray-800 mb-2">Very Breezy</h4>
+                                <p class="text-sm text-gray-600 mb-3">20+ knots</p>
+                                <p class="text-4xl font-bold text-red-600">440</p>
+                                <p class="text-xs text-gray-500">lbs</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 bg-red-50 border-l-4 border-red-500 rounded-lg p-4">
+                            <p class="text-sm text-gray-700"><strong>Caution:</strong> Be careful with older boats at 440lbs as this puts a lot of strain on the boat structure.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Mast Rake -->
+        <section class="mb-16 fade-in">
+            <div class="bg-white rounded-2xl shadow-xl p-8">
+                <div class="flex items-center gap-4 mb-8">
+                    <div class="p-4 bg-indigo-100 rounded-xl">
+                        <i class="fas fa-ruler-vertical text-indigo-600 text-3xl"></i>
+                    </div>
+                    <div>
+                        <h2 class="text-3xl font-bold text-gray-800">Mast Rake</h2>
+                        <p class="text-gray-600">Masthead to transom measurement</p>
+                    </div>
+                </div>
+
+                <div class="space-y-6">
+                    <p class="text-gray-700">
+                        Mast rake is measured from the top of the mast to the top of the transom. It will vary between boats but should be in the specified range.
+                    </p>
+
+                    <div class="bg-gradient-to-r from-indigo-50 to-purple-50 rounded-xl p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-6 text-center">Mast Rake Range</h3>
+                        <div class="flex flex-col items-center gap-6">
+                            <div class="bg-white rounded-lg p-6 w-full max-w-md shadow-lg">
+                                <p class="text-center text-gray-600 mb-2">Acceptable Range:</p>
+                                <p class="text-center text-4xl font-bold text-indigo-600 mb-4">21'9" - 21'11"</p>
+                                <div class="border-t-2 border-indigo-200 pt-4 mt-4">
+                                    <p class="text-center text-gray-600 mb-2">Richard Estaugh's Setting:</p>
+                                    <p class="text-center text-3xl font-bold text-purple-600">21'9½"</p>
+                                </div>
+                            </div>
+
+                            <div class="bg-white rounded-lg p-6 w-full">
+                                <h4 class="font-bold text-gray-800 mb-4">How to Measure:</h4>
+                                <div class="space-y-3">
+                                    <div class="flex items-start gap-3">
+                                        <div class="w-8 h-8 bg-indigo-600 text-white rounded-full flex items-center justify-center font-bold flex-shrink-0">1</div>
+                                        <p class="text-sm text-gray-700">Hoist the jib with <strong>400lbs tension</strong></p>
+                                    </div>
+                                    <div class="flex items-start gap-3">
+                                        <div class="w-8 h-8 bg-indigo-600 text-white rounded-full flex items-center justify-center font-bold flex-shrink-0">2</div>
+                                        <p class="text-sm text-gray-700">Measure <strong>18 feet</strong> to the top of the black band at the gooseneck</p>
+                                    </div>
+                                    <div class="flex items-start gap-3">
+                                        <div class="w-8 h-8 bg-indigo-600 text-white rounded-full flex items-center justify-center font-bold flex-shrink-0">3</div>
+                                        <p class="text-sm text-gray-700">Cleat the main halyard in this position</p>
+                                    </div>
+                                    <div class="flex items-start gap-3">
+                                        <div class="w-8 h-8 bg-purple-600 text-white rounded-full flex items-center justify-center font-bold flex-shrink-0">4</div>
+                                        <p class="text-sm text-gray-700">Measure the distance to the top of the transom - this is your mast rake</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5: Genoa -->
+        <section class="mb-16 fade-in">
+            <div class="bg-white rounded-2xl shadow-xl p-8">
+                <div class="flex items-center gap-4 mb-8">
+                    <div class="p-4 bg-cyan-100 rounded-xl">
+                        <i class="fas fa-wind text-cyan-600 text-3xl"></i>
+                    </div>
+                    <div>
+                        <h2 class="text-3xl font-bold text-gray-800">Genoa Setup</h2>
+                        <p class="text-gray-600">Tack position, clew height, and fairlead settings</p>
+                    </div>
+                </div>
+
+                <div class="space-y-6">
+                    <!-- Tack Position -->
+                    <div class="bg-cyan-50 rounded-lg p-6 border-l-4 border-cyan-500">
+                        <h3 class="text-lg font-bold text-gray-800 mb-3">Tack Position</h3>
+                        <p class="text-gray-700">
+                            To ensure there is as small a gap as possible between the bottom of the deck and the Genoa, the tack of the Genoa should be <strong>as low as possible</strong> - i.e. connected directly to the bow plate fitting.
+                        </p>
+                    </div>
+
+                    <!-- Clew Position -->
+                    <div class="bg-green-50 rounded-lg p-6 border-l-4 border-green-500">
+                        <h3 class="text-lg font-bold text-gray-800 mb-3">Clew Position Checkpoint</h3>
+                        <p class="text-gray-700 mb-3">
+                            If the rig tension, mast rake and pre-bend are all set correctly, the clew of the Genoa will be approximately <strong>3 inches from the fairlead</strong>.
+                        </p>
+                        <p class="text-sm text-gray-600">This is true for most makes of boats although occasionally there are exceptions.</p>
+                    </div>
+
+                    <!-- Genoa Fairleads -->
+                    <div class="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Genoa Fairlead Settings</h3>
+
+                        <div class="bg-white rounded-lg p-6 mb-4">
+                            <h4 class="font-semibold text-gray-800 mb-3">Fairlead Position:</h4>
+                            <p class="text-gray-700 mb-3">
+                                These should be set so that if you follow the angle of the genoa sheet through the clew, it <strong>almost bisects the angle</strong> formed by the clew and foot but sheets <strong>slightly more down the leech</strong>.
+                            </p>
+                            <p class="text-sm text-gray-600">If you do not have through-deck sheeting, the fairlead tracks should be positioned in the middle of the deck.</p>
+                        </div>
+
+                        <div class="bg-white rounded-lg p-6 mb-4">
+                            <h4 class="font-semibold text-gray-800 mb-3">Sheet Tension by Crew Position:</h4>
+                            <div class="space-y-3">
+                                <div class="flex items-start gap-3 p-3 bg-green-50 rounded-lg">
+                                    <i class="fas fa-arrow-right text-green-600 mt-1"></i>
+                                    <div>
+                                        <p class="font-semibold text-gray-800">Medium & Heavy Winds:</p>
+                                        <p class="text-sm text-gray-700">Jib pulled in <strong>as tightly as possible</strong></p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start gap-3 p-3 bg-blue-50 rounded-lg">
+                                    <i class="fas fa-arrow-right text-blue-600 mt-1"></i>
+                                    <div>
+                                        <p class="font-semibold text-gray-800">As Crew Moves Inboard:</p>
+                                        <p class="text-sm text-gray-700">Ease the jib in <strong>½ inch increments</strong> so that when sitting in the middle, the genoa is eased approximately <strong>1 inch</strong></p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start gap-3 p-3 bg-cyan-50 rounded-lg">
+                                    <i class="fas fa-arrow-right text-cyan-600 mt-1"></i>
+                                    <div>
+                                        <p class="font-semibold text-gray-800">Very Little Wind (Crew to Leeward):</p>
+                                        <p class="text-sm text-gray-700">Genoa eased to a <strong>maximum of 2 inches</strong> from bar tight</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-white rounded-lg p-6">
+                            <h4 class="font-semibold text-gray-800 mb-3">Fairlead Adjustments for Strong Winds:</h4>
+                            <div class="grid md:grid-cols-2 gap-4">
+                                <div class="bg-amber-50 p-4 rounded-lg">
+                                    <p class="font-semibold text-amber-900 mb-2">Above 15 knots:</p>
+                                    <p class="text-sm text-gray-700">Move fairlead back <strong>one hole</strong> on the track to open the upper leech and prevent the slot getting choked</p>
+                                </div>
+                                <div class="bg-red-50 p-4 rounded-lg">
+                                    <p class="font-semibold text-red-900 mb-2">Very windy (20+ knots):</p>
+                                    <p class="text-sm text-gray-700">Fairleads can be moved back <strong>2 holes</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 6: Mainsail Controls -->
+        <section class="mb-16 fade-in">
+            <div class="bg-white rounded-2xl shadow-xl p-8">
+                <div class="flex items-center gap-4 mb-8">
+                    <div class="p-4 bg-orange-100 rounded-xl">
+                        <i class="fas fa-sliders-h text-orange-600 text-3xl"></i>
+                    </div>
+                    <div>
+                        <h2 class="text-3xl font-bold text-gray-800">Mainsail Controls</h2>
+                        <p class="text-gray-600">Kicker, cunningham, outhaul, and halyard tension</p>
+                    </div>
+                </div>
+
+                <div class="space-y-6">
+                    <!-- Mainsail Halyard -->
+                    <div class="bg-gradient-to-r from-purple-50 to-pink-50 rounded-xl p-6 border-l-4 border-purple-500">
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Mainsail Halyard</h3>
+                        <p class="text-gray-700 mb-4">
+                            The mainsail should <strong>only ever be hoisted to the bottom of the black band</strong> even though some 'speed bump' creases may be evident along the luff when sailing.
+                        </p>
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div class="bg-white rounded-lg p-4">
+                                <p class="font-semibold text-gray-800 mb-2">Standard Setting:</p>
+                                <p class="text-sm text-gray-700">Bottom of black band</p>
+                            </div>
+                            <div class="bg-white rounded-lg p-4">
+                                <p class="font-semibold text-gray-800 mb-2">Light Winds:</p>
+                                <p class="text-sm text-gray-700">Lower approximately <strong>½ inch below</strong> the black band</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 bg-red-50 rounded-lg p-4 border-l-4 border-red-500">
+                            <p class="text-sm text-gray-700"><strong>Warning:</strong> If the mainsail has been hoisted too much, a crease will be evident running parallel to the mast. This is most easily noticed when sailing downwind.</p>
+                        </div>
+                    </div>
+
+                    <!-- Kicking Strap -->
+                    <div class="bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl p-6 border-l-4 border-green-500">
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">
+                            <i class="fas fa-star text-green-600 mr-2"></i>
+                            Kicking Strap (Most Critical Control)
+                        </h3>
+                        <p class="text-gray-700 mb-4 font-semibold">
+                            This is the <strong>most critical control when racing</strong>.
+                        </p>
+
+                        <div class="space-y-4">
+                            <div class="bg-white rounded-lg p-4">
+                                <h4 class="font-semibold text-gray-800 mb-3">By Wind Condition:</h4>
+                                <div class="space-y-3">
+                                    <div class="flex items-start gap-3 p-3 bg-blue-50 rounded-lg">
+                                        <i class="fas fa-feather text-blue-600 mt-1"></i>
+                                        <div>
+                                            <p class="font-semibold text-gray-800">Very Light Winds:</p>
+                                            <p class="text-sm text-gray-700">Just have the <strong>slack taken out</strong> of the kicker when sailing upwind</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start gap-3 p-3 bg-green-50 rounded-lg">
+                                        <i class="fas fa-wind text-green-600 mt-1"></i>
+                                        <div>
+                                            <p class="font-semibold text-gray-800">As Wind Increases:</p>
+                                            <p class="text-sm text-gray-700 mb-2">Aim to have the <strong>top leech telltale on the main flying approximately 80% of the time</strong> (i.e. occasionally flicking behind the mainsail)</p>
+                                            <p class="text-xs text-gray-600">Downwind this telltale should be flying continuously</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-start gap-3 p-3 bg-amber-50 rounded-lg">
+                                        <i class="fas fa-bolt text-amber-600 mt-1"></i>
+                                        <div>
+                                            <p class="font-semibold text-gray-800">Above 15 Knots:</p>
+                                            <p class="text-sm text-gray-700">The telltale will fly no matter how much kicker is put on. The kicking strap then becomes a <strong>power control</strong>:</p>
+                                            <ul class="text-xs text-gray-700 mt-2 ml-4 space-y-1">
+                                                <li>• If boat feels underpowered → let some off</li>
+                                                <li>• If overpowered → pull more on</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cunningham -->
+                    <div class="bg-gradient-to-r from-amber-50 to-orange-50 rounded-xl p-6 border-l-4 border-amber-500">
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Cunningham</h3>
+                        <p class="text-gray-700 mb-4">
+                            The cunningham should <strong>only be used in a GP14 in 15 knots and above</strong>.
+                        </p>
+                        <div class="bg-white rounded-lg p-4">
+                            <div class="space-y-3">
+                                <div class="flex items-start gap-2">
+                                    <i class="fas fa-check-circle text-green-600 mt-1"></i>
+                                    <p class="text-sm text-gray-700">In 15+ knot conditions, some cunningham may be used to <strong>remove excessive creases</strong> in the main luff</p>
+                                </div>
+                                <div class="flex items-start gap-2">
+                                    <i class="fas fa-times-circle text-red-600 mt-1"></i>
+                                    <p class="text-sm text-gray-700"><strong>Do not remove the creases completely</strong></p>
+                                </div>
+                                <div class="flex items-start gap-2">
+                                    <i class="fas fa-times-circle text-red-600 mt-1"></i>
+                                    <p class="text-sm text-gray-700"><strong>Do not use the cunningham when sailing downwind</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Outhaul -->
+                    <div class="bg-gradient-to-r from-red-50 to-pink-50 rounded-xl p-6 border-l-4 border-red-500">
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Outhaul</h3>
+
+                        <div class="space-y-4">
+                            <div class="bg-white rounded-lg p-4">
+                                <h4 class="font-semibold text-gray-800 mb-3">Upwind:</h4>
+                                <p class="text-gray-700 mb-3">
+                                    The outhaul should be <strong>pulled tight to the black band</strong> in all conditions when sailing upwind.
+                                </p>
+                                <div class="bg-blue-50 p-3 rounded-lg">
+                                    <p class="text-sm text-gray-700"><strong>Exception:</strong> In very choppy conditions in approximately 10-12 knots, it can be eased up to <strong>1 inch</strong> to help power up the mainsail</p>
+                                </div>
+                            </div>
+
+                            <div class="bg-white rounded-lg p-4">
+                                <h4 class="font-semibold text-gray-800 mb-3">On Reaches:</h4>
+                                <div class="space-y-2 text-sm text-gray-700">
+                                    <p>• <strong>Standard reaches:</strong> Ease 1½ - 2 inches</p>
+                                    <p>• <strong>Close spinnaker reach:</strong> Left on tight</p>
+                                    <p>• <strong>Planing 2-sail reach:</strong> Can be eased 2½ inches</p>
+                                </div>
+                            </div>
+
+                            <div class="bg-white rounded-lg p-4">
+                                <h4 class="font-semibold text-gray-800 mb-3">When Running:</h4>
+                                <p class="text-gray-700">
+                                    The outhaul should only be eased <strong>½ inch</strong> to keep maximum sail area to the wind.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 7: Spinnaker -->
+        <section class="mb-16 fade-in">
+            <div class="bg-white rounded-2xl shadow-xl p-8">
+                <div class="flex items-center gap-4 mb-8">
+                    <div class="p-4 bg-pink-100 rounded-xl">
+                        <i class="fas fa-parachute-box text-pink-600 text-3xl"></i>
+                    </div>
+                    <div>
+                        <h2 class="text-3xl font-bold text-gray-800">Spinnaker Setup</h2>
+                        <p class="text-gray-600">Halyard, pole height, and sheeting position</p>
+                    </div>
+                </div>
+
+                <div class="space-y-6">
+                    <!-- Halyard Height -->
+                    <div class="bg-gradient-to-r from-pink-50 to-purple-50 rounded-xl p-6 border-l-4 border-pink-500">
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Spinnaker Halyard Height</h3>
+                        <p class="text-gray-700 mb-4">
+                            A <strong>stopper knot</strong> should be put into the spinnaker halyard so that when fully hoisted, the head of the spinnaker is about <strong>3 inches from the mast</strong>.
+                        </p>
+                        <div class="bg-white rounded-lg p-4 flex items-center justify-center">
+                            <div class="text-center">
+                                <i class="fas fa-arrows-alt-v text-pink-600 text-5xl mb-3"></i>
+                                <p class="text-3xl font-bold text-pink-600">3 inches</p>
+                                <p class="text-sm text-gray-600">Head to mast gap when fully hoisted</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pole Height -->
+                    <div class="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-xl p-6 border-l-4 border-blue-500">
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Spinnaker Pole Height</h3>
+                        <p class="text-gray-700 mb-4">
+                            <strong>90% of the time</strong> the spinnaker pole should be set so that both the <strong>tack and clew are level</strong>.
+                        </p>
+
+                        <div class="bg-white rounded-lg p-6 mb-4">
+                            <h4 class="font-semibold text-gray-800 mb-3">How to Check Pole Height:</h4>
+                            <p class="text-gray-700 mb-3">
+                                Look at where the spinnaker breaks when eased (top, middle or bottom):
+                            </p>
+                            <div class="grid md:grid-cols-2 gap-4">
+                                <div class="bg-red-50 p-4 rounded-lg border-l-4 border-red-400">
+                                    <p class="font-semibold text-red-900 mb-2">If it starts to curl near the top:</p>
+                                    <p class="text-sm text-gray-700">Pole is <strong>too high</strong> → lower it</p>
+                                </div>
+                                <div class="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-400">
+                                    <p class="font-semibold text-blue-900 mb-2">If it starts to curl near the bottom:</p>
+                                    <p class="text-sm text-gray-700">Pole is <strong>too low</strong> → raise it</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-green-50 rounded-lg p-4 border-l-4 border-green-500">
+                            <h4 class="font-semibold text-green-900 mb-2">Light Air Tip:</h4>
+                            <p class="text-sm text-gray-700">
+                                If the wind drops almost completely so that you are struggling to get the spinnaker to fly, <strong>dropping the pole a few inches</strong> can support the spinnaker and help it to set.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Sheeting Position -->
+                    <div class="bg-gradient-to-r from-purple-50 to-indigo-50 rounded-xl p-6 border-l-4 border-purple-500">
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Spinnaker Sheeting Position</h3>
+                        <div class="bg-white rounded-lg p-6">
+                            <p class="text-gray-700 mb-4 text-lg">
+                                <strong>"Due to the relatively small size of the GP14 spinnaker there is no advantage to be had from sheeting to the transom."</strong>
+                            </p>
+                            <div class="bg-purple-50 p-4 rounded-lg">
+                                <p class="font-semibold text-purple-900 mb-2">Richard Estaugh's Recommendation:</p>
+                                <p class="text-gray-700">We put the fairleads at the <strong>widest point in the boat</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Reference Card -->
+        <section class="mb-16 fade-in">
+            <div class="bg-gradient-to-br from-slate-800 to-blue-900 rounded-2xl shadow-xl p-8 text-white">
+                <h2 class="text-3xl font-bold mb-6 text-center">
+                    <i class="fas fa-clipboard-list mr-3"></i>
+                    Quick Reference Card
+                </h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4">
+                        <h3 class="font-bold mb-2">Rig Tension (Base)</h3>
+                        <p class="text-2xl font-bold text-amber-400">400 lbs</p>
+                    </div>
+                    <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4">
+                        <h3 class="font-bold mb-2">Mast Rake</h3>
+                        <p class="text-2xl font-bold text-amber-400">21'9" - 21'11"</p>
+                    </div>
+                    <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4">
+                        <h3 class="font-bold mb-2">Pre-Bend</h3>
+                        <p class="text-2xl font-bold text-amber-400">3/4 inch</p>
+                    </div>
+                    <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4">
+                        <h3 class="font-bold mb-2">Mast Position (Mk2)</h3>
+                        <p class="text-2xl font-bold text-amber-400">2845mm</p>
+                    </div>
+                    <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4">
+                        <h3 class="font-bold mb-2">Genoa Clew Gap</h3>
+                        <p class="text-2xl font-bold text-amber-400">~3 inches</p>
+                    </div>
+                    <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4">
+                        <h3 class="font-bold mb-2">Kicker Control</h3>
+                        <p class="text-xl font-bold text-amber-400">Most Critical!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Information -->
+        <div class="text-center bg-gradient-to-r from-blue-100 to-purple-100 rounded-2xl p-12 fade-in">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4">Need More Help?</h2>
+            <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+                We hope that this guide is of use to you. If you have any further queries or problems please do not hesitate to contact Speed Sails.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <div class="inline-flex items-center gap-2 bg-blue-600 text-white px-8 py-4 rounded-full font-semibold shadow-lg">
+                    <i class="fas fa-phone"></i>
+                    <span>+44 (0)1922 455503</span>
+                </div>
+                <a href="tuning-guide.html" class="inline-flex items-center gap-2 bg-white text-blue-600 px-8 py-4 rounded-full font-semibold hover:bg-gray-50 transition-colors shadow-lg border-2 border-blue-600">
+                    <i class="fas fa-arrow-left"></i>
+                    All Tuning Guides
+                </a>
+            </div>
+            <p class="text-gray-600 mt-6 italic">
+                Guide by Richard Estaugh - Multiple GP14 World & National Champion
+            </p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12 mt-20">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-gray-400">
+                <i class="fas fa-trophy mr-2"></i>
+                Speed Sails GP14 Tuning Guide | Richard Estaugh
+            </p>
+            <p class="text-gray-500 text-sm mt-2">
+                Championship-proven settings for competitive racing
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // Fade in animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('section').forEach(section => {
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>

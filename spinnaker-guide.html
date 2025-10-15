@@ -1,0 +1,1196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GP14 Spinnaker Rigging Guide | Setup & Handling for Cruisers and Beginners</title>
+    <meta name="description" content="Complete GP14 spinnaker rigging guide covering fittings, simple systems, hoisting and lowering techniques. Perfect for cruisers and beginners learning spinnaker handling.">
+    <meta name="keywords" content="GP14 spinnaker, spinnaker rigging, spinnaker setup, twinning lines, reaching hooks, spinnaker pole, halyard system, downwind sailing">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .fade-in {
+            animation: fadeIn 0.6s ease-out forwards;
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #f59e0b 0%, #ef4444 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-orange-50 via-white to-red-50 min-h-screen">
+    <!-- Sticky Navigation -->
+    <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm shadow-md">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center gap-3">
+                    <i class="fas fa-parachute-box text-orange-600 text-2xl"></i>
+                    <span class="font-bold text-xl text-gray-800">Spinnaker Rigging</span>
+                </div>
+                <div class="flex items-center gap-6">
+                    <a href="index.html" class="text-gray-600 hover:text-orange-600 transition-colors">
+                        <i class="fas fa-home mr-2"></i>Home
+                    </a>
+                    <a href="tuning-guide.html" class="text-gray-600 hover:text-orange-600 transition-colors">
+                        <i class="fas fa-wrench mr-2"></i>Tuning
+                    </a>
+                    <a href="crewing-guide.html" class="text-gray-600 hover:text-orange-600 transition-colors">
+                        <i class="fas fa-users mr-2"></i>Crewing
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+        <div class="flex items-center gap-2 text-sm text-gray-600">
+            <a href="index.html" class="hover:text-orange-600">Home</a>
+            <i class="fas fa-chevron-right text-xs"></i>
+            <span class="text-orange-600 font-semibold">Spinnaker Rigging Guide</span>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="text-center mb-16 fade-in">
+            <div class="inline-block p-4 bg-gradient-to-br from-orange-500 to-red-600 rounded-full mb-6">
+                <i class="fas fa-parachute-box text-white text-6xl"></i>
+            </div>
+            <h1 class="text-5xl md:text-6xl font-bold mb-6">
+                <span class="gradient-text">GP14 Spinnaker Rigging</span>
+            </h1>
+            <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                Complete guide to spinnaker fittings, simple systems, and handling techniques for cruisers
+                and beginners. Learn to rig and fly your spinnaker with confidence.
+            </p>
+
+            <!-- Quick Stats -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-12 max-w-4xl mx-auto">
+                <div class="bg-white rounded-xl shadow-lg p-6">
+                    <div class="text-3xl font-bold text-orange-600">3</div>
+                    <div class="text-sm text-gray-600">Expert Articles</div>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-6">
+                    <div class="text-3xl font-bold text-red-600">Simple</div>
+                    <div class="text-sm text-gray-600">Systems</div>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-6">
+                    <div class="text-3xl font-bold text-amber-600">Beginner</div>
+                    <div class="text-sm text-gray-600">Friendly</div>
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-6">
+                    <div class="text-3xl font-bold text-orange-600">Step-by-Step</div>
+                    <div class="text-sm text-gray-600">Instructions</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Introduction -->
+        <section class="mb-16 fade-in">
+            <div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl shadow-xl p-8 border-l-4 border-blue-500">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4 flex items-center gap-3">
+                    <i class="fas fa-info-circle text-blue-600"></i>
+                    About This Guide
+                </h2>
+                <p class="text-gray-700 mb-4">
+                    The spinnaker is a specialist sail for downwind and reaching that can transform your sailing experience.
+                    While calendar photos make it look glamorous, the reality is that it requires proper rigging and technique
+                    to handle safely and effectively.
+                </p>
+                <p class="text-gray-700">
+                    This guide compiles wisdom from three expert sources: <strong>Oliver L. Shaw</strong> (simple systems for cruisers),
+                    <strong>Brian Hayes</strong> (beginner fundamentals), and <strong>Simon Relph</strong> (racing setups).
+                    Whether you're cruising or learning to race, you'll find the right system here.
+                </p>
+            </div>
+        </section>
+
+        <!-- Table of Contents -->
+        <div class="bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl shadow-xl p-8 mb-12 fade-in">
+            <h2 class="text-2xl font-bold text-gray-800 mb-6 flex items-center gap-3">
+                <i class="fas fa-list-ul text-orange-600"></i>
+                What You'll Learn
+            </h2>
+            <div class="grid md:grid-cols-2 gap-4">
+                <a href="#fittings" class="flex items-center gap-3 p-4 bg-white rounded-lg hover:shadow-md transition-shadow group">
+                    <i class="fas fa-tools text-orange-600 text-xl"></i>
+                    <span class="font-semibold group-hover:text-orange-600 transition-colors">Essential Fittings</span>
+                </a>
+                <a href="#halyard" class="flex items-center gap-3 p-4 bg-white rounded-lg hover:shadow-md transition-shadow group">
+                    <i class="fas fa-rope text-red-600 text-xl"></i>
+                    <span class="font-semibold group-hover:text-red-600 transition-colors">Halyard Systems</span>
+                </a>
+                <a href="#uphaul" class="flex items-center gap-3 p-4 bg-white rounded-lg hover:shadow-md transition-shadow group">
+                    <i class="fas fa-arrows-alt-v text-amber-600 text-xl"></i>
+                    <span class="font-semibold group-hover:text-amber-600 transition-colors">Uphaul/Downhaul</span>
+                </a>
+                <a href="#sheets" class="flex items-center gap-3 p-4 bg-white rounded-lg hover:shadow-md transition-shadow group">
+                    <i class="fas fa-stream text-orange-600 text-xl"></i>
+                    <span class="font-semibold group-hover:text-orange-600 transition-colors">Sheets & Guys</span>
+                </a>
+                <a href="#hoisting" class="flex items-center gap-3 p-4 bg-white rounded-lg hover:shadow-md transition-shadow group">
+                    <i class="fas fa-arrow-up text-green-600 text-xl"></i>
+                    <span class="font-semibold group-hover:text-green-600 transition-colors">Hoisting Technique</span>
+                </a>
+                <a href="#lowering" class="flex items-center gap-3 p-4 bg-white rounded-lg hover:shadow-md transition-shadow group">
+                    <i class="fas fa-arrow-down text-red-600 text-xl"></i>
+                    <span class="font-semibold group-hover:text-red-600 transition-colors">Lowering Technique</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Section 1: Essential Fittings -->
+        <section id="fittings" class="mb-16 fade-in">
+            <div class="bg-white rounded-2xl shadow-xl p-8">
+                <div class="flex items-center gap-4 mb-8">
+                    <div class="p-4 bg-orange-100 rounded-xl">
+                        <i class="fas fa-tools text-orange-600 text-3xl"></i>
+                    </div>
+                    <div>
+                        <h2 class="text-3xl font-bold text-gray-800">Essential Fittings</h2>
+                        <p class="text-gray-600">What you need on the mast, pole, deck, and inside the boat</p>
+                    </div>
+                </div>
+
+                <div class="space-y-8">
+                    <!-- Mast Fittings -->
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+                            <i class="fas fa-flag-checkered text-orange-600"></i>
+                            On the Mast
+                        </h3>
+                        <div class="grid md:grid-cols-3 gap-4">
+                            <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-6">
+                                <div class="text-center mb-3">
+                                    <i class="fas fa-circle-notch text-blue-600 text-3xl"></i>
+                                </div>
+                                <h4 class="font-bold text-gray-800 text-center mb-2">Spinnaker Halyard</h4>
+                                <p class="text-sm text-gray-700">5mm braided rope (not 3-strand). Emerges through sheave above genoa halyard.</p>
+                            </div>
+                            <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-xl p-6">
+                                <div class="text-center mb-3">
+                                    <i class="fas fa-ring text-green-600 text-3xl"></i>
+                                </div>
+                                <h4 class="font-bold text-gray-800 text-center mb-2">Pole Ring</h4>
+                                <p class="text-sm text-gray-700">Approximately 1418mm above mast foot for clipping the spinnaker pole.</p>
+                            </div>
+                            <div class="bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl p-6">
+                                <div class="text-center mb-3">
+                                    <i class="fas fa-exchange-alt text-purple-600 text-3xl"></i>
+                                </div>
+                                <h4 class="font-bold text-gray-800 text-center mb-2">Uphaul/Downhaul</h4>
+                                <p class="text-sm text-gray-700">Sheave or eye plate below genoa sheave for adjustable pole height control.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pole Fittings -->
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+                            <i class="fas fa-ruler-horizontal text-orange-600"></i>
+                            On the Pole
+                        </h3>
+                        <div class="bg-gradient-to-r from-orange-50 to-amber-50 rounded-xl p-6">
+                            <div class="grid md:grid-cols-2 gap-6">
+                                <div class="flex items-start gap-3">
+                                    <i class="fas fa-link text-orange-600 text-2xl mt-1"></i>
+                                    <div>
+                                        <h4 class="font-semibold text-gray-800 mb-2">End Fittings</h4>
+                                        <p class="text-sm text-gray-700 mb-2">A pair of similar fittings to secure pole to mast ring and to guy.</p>
+                                        <div class="bg-red-50 rounded-lg p-3 border-l-4 border-red-400">
+                                            <p class="text-xs text-gray-700"><strong>Warning:</strong> Avoid cheap nylon clip-on fittings that rely on elasticity - they can fail under load and cause capsizes!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex items-start gap-3">
+                                    <i class="fas fa-anchor text-orange-600 text-2xl mt-1"></i>
+                                    <div>
+                                        <h4 class="font-semibold text-gray-800 mb-2">Centre Attachment</h4>
+                                        <p class="text-sm text-gray-700 mb-2">For uphaul/downhaul. Two options:</p>
+                                        <ul class="text-xs text-gray-700 space-y-1">
+                                            <li>• <strong>Eye plate</strong> with S-hook or carbine hook</li>
+                                            <li>• <strong>Double horn jamcleat</strong> (horns facing each other) with optional knots in line</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Deck Fittings -->
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+                            <i class="fas fa-ship text-orange-600"></i>
+                            On the Deck
+                        </h3>
+                        <div class="space-y-4">
+                            <div class="flex items-start gap-3 p-4 bg-green-50 rounded-lg border-l-4 border-green-500">
+                                <i class="fas fa-check-circle text-green-600 text-xl mt-1"></i>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Required: Fairleads</h4>
+                                    <p class="text-sm text-gray-700">Pair of fairleads roughly amidships, as far outboard as possible. Ball bearing fairleads are best (R534 or similar).</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3 p-4 bg-blue-50 rounded-lg border-l-4 border-blue-500">
+                                <i class="fas fa-info-circle text-blue-600 text-xl mt-1"></i>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Optional: Jam Cleats</h4>
+                                    <p class="text-sm text-gray-700">Strong jam cleats for fairleads, positioned directly between fairlead and crew. Keep 4½" apart to prevent accidental cleating.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3 p-4 bg-amber-50 rounded-lg border-l-4 border-amber-500">
+                                <i class="fas fa-info-circle text-amber-600 text-xl mt-1"></i>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-gray-800 mb-1">Optional: Reaching Cleats or Twinning Lines</h4>
+                                    <p class="text-sm text-gray-700 mb-2">Control guy angle when pole is forward on a reach:</p>
+                                    <ul class="text-xs text-gray-700 space-y-1 ml-4">
+                                        <li>• <strong>Reaching hooks:</strong> Alloy clam cleat with hook near shrouds</li>
+                                        <li>• <strong>Twinning lines:</strong> Ball bearing block on sheets with control lines through deck fairleads (increasingly popular for racing)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="bg-gray-50 border-2 border-gray-300 rounded-xl p-6">
+                                <h4 class="font-semibold text-gray-800 mb-3 flex items-center gap-2">
+                                    <i class="fas fa-question-circle text-gray-600"></i>
+                                    What About Aft Fairleads?
+                                </h4>
+                                <p class="text-sm text-gray-700 mb-2">
+                                    <strong>Not recommended.</strong> World Champion Richard Estaugh states: <em>"Due to the relatively small size of the GP14 spinnaker there is no advantage to be had from sheeting to the transom. We put the fairleads at the widest point in the boat."</em>
+                                </p>
+                                <p class="text-xs text-gray-600">Many modern racers have removed aft fairleads entirely.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Inside the Boat -->
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+                            <i class="fas fa-inbox text-orange-600"></i>
+                            Inside the Boat
+                        </h3>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-6">
+                                <h4 class="font-bold text-purple-900 mb-4">Spinnaker Storage</h4>
+                                <p class="text-sm text-gray-700 mb-3">Options for stowing the sail when not in use:</p>
+                                <ul class="space-y-2 text-sm text-gray-700">
+                                    <li class="flex items-start gap-2">
+                                        <i class="fas fa-star text-purple-600 mt-1"></i>
+                                        <span><strong>Spinnaker bags/nets</strong> (preferred) - mounted on forward coaming corners</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <i class="fas fa-check text-purple-600 mt-1"></i>
+                                        <span><strong>Plastic bucket</strong> (tied in) - simple alternative</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <i class="fas fa-check text-purple-600 mt-1"></i>
+                                        <span><strong>Floor</strong> - some racers just dump it on floorboards!</span>
+                                    </li>
+                                </ul>
+                                <p class="text-xs text-gray-600 mt-3">Bags keep sail drier and useful for storing tools, snacks, etc.</p>
+                            </div>
+                            <div class="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl p-6">
+                                <h4 class="font-bold text-blue-900 mb-4">Halyard Control</h4>
+                                <p class="text-sm text-gray-700 mb-3">Lead halyard to convenient point with jam cleat:</p>
+                                <ul class="space-y-2 text-sm text-gray-700">
+                                    <li class="flex items-start gap-2">
+                                        <i class="fas fa-arrow-right text-blue-600 mt-1"></i>
+                                        <span><strong>To helmsman</strong> (most common) - aft along centreboard case (HA 4977 or similar)</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <i class="fas fa-arrow-right text-blue-600 mt-1"></i>
+                                        <span><strong>To crew</strong> (alternative) - on side deck near thwart</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <i class="fas fa-lightbulb text-blue-600 mt-1"></i>
+                                        <span>Final lead should be upwards from a turning block</span>
+                                    </li>
+                                </ul>
+                                <p class="text-xs text-gray-600 mt-3">Tip: Add extra cleat on centreboard casing for crew to hoist in rough conditions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Halyard Systems -->
+        <section id="halyard" class="mb-16 fade-in">
+            <div class="bg-white rounded-2xl shadow-xl p-8">
+                <div class="flex items-center gap-4 mb-8">
+                    <div class="p-4 bg-red-100 rounded-xl">
+                        <i class="fas fa-rope text-red-600 text-3xl"></i>
+                    </div>
+                    <div>
+                        <h2 class="text-3xl font-bold text-gray-800">Halyard Systems</h2>
+                        <p class="text-gray-600">Simple single line vs. 1:2 purchase for faster hoisting</p>
+                    </div>
+                </div>
+
+                <div class="space-y-8">
+                    <!-- Simple System -->
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+                            <i class="fas fa-1 text-blue-600"></i>
+                            Simple Single Line System
+                        </h3>
+                        <div class="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-xl p-6">
+                            <p class="text-gray-700 mb-4">
+                                Just a single length of 5mm braided rope from head of sail → up through sheave above forestay →
+                                down inside mast → through sheave at bottom → aft to jam cleat on centreboard case.
+                            </p>
+                            <div class="bg-white rounded-lg p-4 border-l-4 border-blue-500">
+                                <p class="text-sm text-gray-700"><strong>Works fine</strong> but requires more effort to hoist. Good for beginners and cruising.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 1:2 Purchase System -->
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+                            <i class="fas fa-2 text-green-600"></i>
+                            1:2 Purchase System (Faster Hoisting)
+                        </h3>
+                        <div class="bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl p-6">
+                            <p class="text-gray-700 mb-4">
+                                Sail goes up at <strong>twice the speed</strong> that helmsman pulls halyard. Opposite of normal 2:1 purchases.
+                            </p>
+                            <div class="bg-white rounded-lg p-6 mb-4">
+                                <h4 class="font-semibold text-gray-800 mb-3">Setup (Bottom of Boat Method):</h4>
+                                <div class="space-y-3">
+                                    <div class="flex items-start gap-3">
+                                        <div class="w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center font-bold flex-shrink-0">1</div>
+                                        <p class="text-sm text-gray-700">8mm braided rope runs aft from jam cleat to turning block just ahead of transom</p>
+                                    </div>
+                                    <div class="flex items-start gap-3">
+                                        <div class="w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center font-bold flex-shrink-0">2</div>
+                                        <p class="text-sm text-gray-700">Then forward to near mast, ending in a block (pulling this line pulls the block aft)</p>
+                                    </div>
+                                    <div class="flex items-start gap-3">
+                                        <div class="w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center font-bold flex-shrink-0">3</div>
+                                        <p class="text-sm text-gray-700">5mm halyard from bottom of mast goes through this block, then ties to toestrap plate (or other fixed point)</p>
+                                    </div>
+                                    <div class="flex items-start gap-3">
+                                        <div class="w-8 h-8 bg-emerald-600 text-white rounded-full flex items-center justify-center font-bold flex-shrink-0">✓</div>
+                                        <p class="text-sm text-gray-700"><strong>Result:</strong> Pull 8mm line → block moves aft → 5mm halyard pulls at 2x speed!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bg-amber-50 border-l-4 border-amber-500 rounded-lg p-4">
+                                <p class="text-sm text-gray-700"><strong>Alternative locations:</strong> Purchase can also be rigged down front of mast or inside mast (consult sailmaker/rigger).</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Halyard Tips -->
+                    <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+                            <i class="fas fa-lightbulb text-purple-600"></i>
+                            Halyard Tips
+                        </h3>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <h4 class="font-semibold text-gray-800 mb-3">Head Height</h4>
+                                <p class="text-sm text-gray-700 mb-2">When fully hoisted, head of sail should be a few inches out from mast.</p>
+                                <div class="bg-white rounded-lg p-3 border-l-4 border-purple-500">
+                                    <p class="text-xs text-gray-700"><strong>Pro tip:</strong> Tie a stopper knot in halyard that distance from sail - just hoist until knot hits sheave!</p>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-800 mb-3">Attachment Method</h4>
+                                <p class="text-sm text-gray-700 mb-2">Two options for attaching halyard to sail:</p>
+                                <ul class="text-xs text-gray-700 space-y-1">
+                                    <li>• <strong>Bowline knot</strong> (preferred) - lighter, better in light air</li>
+                                    <li>• <strong>Snap shackle</strong> - heavier but quicker (avoid in light winds)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Uphaul/Downhaul Systems -->
+        <section id="uphaul" class="mb-16 fade-in">
+            <div class="bg-white rounded-2xl shadow-xl p-8">
+                <div class="flex items-center gap-4 mb-8">
+                    <div class="p-4 bg-amber-100 rounded-xl">
+                        <i class="fas fa-arrows-alt-v text-amber-600 text-3xl"></i>
+                    </div>
+                    <div>
+                        <h2 class="text-3xl font-bold text-gray-800">Uphaul/Downhaul Systems</h2>
+                        <p class="text-gray-600">Control pole height from fixed to fully adjustable</p>
+                    </div>
+                </div>
+
+                <div class="space-y-8">
+                    <!-- Simple Fixed System -->
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+                            <i class="fas fa-anchor text-blue-600"></i>
+                            Simple Fixed System (Cruising)
+                        </h3>
+                        <div class="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-xl p-6">
+                            <div class="grid md:grid-cols-2 gap-6">
+                                <div>
+                                    <h4 class="font-semibold text-gray-800 mb-3">Setup:</h4>
+                                    <ul class="space-y-2 text-sm text-gray-700">
+                                        <li class="flex items-start gap-2">
+                                            <i class="fas fa-arrow-up text-blue-600 mt-1"></i>
+                                            <span><strong>Uphaul:</strong> Shockcord from eye plate on mast (below genoa sheave)</span>
+                                        </li>
+                                        <li class="flex items-start gap-2">
+                                            <i class="fas fa-arrow-down text-blue-600 mt-1"></i>
+                                            <span><strong>Downhaul:</strong> Rope joined to shockcord, brought down to deck level</span>
+                                        </li>
+                                        <li class="flex items-start gap-2">
+                                            <i class="fas fa-link text-blue-600 mt-1"></i>
+                                            <span><strong>Attachment:</strong> Stainless steel hook knotted to lines clips to pole centre eye</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <div class="bg-white rounded-lg p-4 border-l-4 border-blue-500">
+                                        <h4 class="font-semibold text-gray-800 mb-2">Pros & Cons:</h4>
+                                        <p class="text-sm text-green-700 mb-2"><i class="fas fa-check"></i> Very simple and reliable</p>
+                                        <p class="text-sm text-green-700 mb-2"><i class="fas fa-check"></i> Adequate if enough "give" in shockcord</p>
+                                        <p class="text-sm text-red-700"><i class="fas fa-times"></i> Not adjustable while sailing</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modern Adjustable System -->
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+                            <i class="fas fa-sliders-h text-green-600"></i>
+                            Modern Adjustable System (Racing)
+                        </h3>
+                        <div class="bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl p-6">
+                            <div class="space-y-4">
+                                <div class="bg-white rounded-lg p-6">
+                                    <h4 class="font-semibold text-gray-800 mb-4">Rope Uphaul (Adjustable):</h4>
+                                    <div class="flex items-start gap-3 mb-3">
+                                        <i class="fas fa-arrow-right text-green-600 mt-1"></i>
+                                        <p class="text-sm text-gray-700">Rope uphaul through sheave below forestay → down inside mast → out at bottom → aft to thwart cleat</p>
+                                    </div>
+                                    <div class="bg-green-50 rounded-lg p-3 border-l-4 border-green-500">
+                                        <p class="text-xs text-gray-700"><strong>Advantage:</strong> Rope never stretches, so pole never droops (maintaining sail shape)!</p>
+                                    </div>
+                                </div>
+                                <div class="bg-white rounded-lg p-6">
+                                    <h4 class="font-semibold text-gray-800 mb-4">Rope Downhaul (Adjustable):</h4>
+                                    <div class="flex items-start gap-3 mb-3">
+                                        <i class="fas fa-arrow-right text-green-600 mt-1"></i>
+                                        <p class="text-sm text-gray-700">Rope downhaul through bushed hole in deck (forward of mast) → aft to cleat adjacent to uphaul</p>
+                                    </div>
+                                    <div class="bg-blue-50 rounded-lg p-3 border-l-4 border-blue-500">
+                                        <p class="text-xs text-gray-700"><strong>Optional:</strong> Some owners add elastic to keep line taut against mast when not in use. Others prefer no elastic and accept sloppy line.</p>
+                                    </div>
+                                </div>
+                                <div class="bg-purple-50 rounded-lg p-6">
+                                    <h4 class="font-semibold text-gray-800 mb-3">Advanced: 2-Part Purchase System</h4>
+                                    <p class="text-sm text-gray-700 mb-2">For even easier adjustment, introduce 2:1 purchase below deck level:</p>
+                                    <ul class="text-xs text-gray-700 space-y-1 ml-4">
+                                        <li>• Lead adjusting ropes to cleats each side within crew's reach</li>
+                                        <li>• Colour-code uphaul/downhaul lines to tell them apart</li>
+                                        <li>• Position cleats on centreboard case or side bench for easy access</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pole Height Adjustment Tips -->
+                    <div class="bg-gradient-to-br from-amber-50 to-orange-50 rounded-xl p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+                            <i class="fas fa-compass text-amber-600"></i>
+                            When to Adjust Pole Height
+                        </h3>
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div class="bg-white rounded-lg p-4 border-l-4 border-blue-500">
+                                <h4 class="font-semibold text-blue-900 mb-2">Raise Pole (Uphaul):</h4>
+                                <ul class="text-sm text-gray-700 space-y-1">
+                                    <li>• Light air - lifts sail, reduces luff curl</li>
+                                    <li>• Running dead downwind</li>
+                                    <li>• To match leeward clew height</li>
+                                </ul>
+                            </div>
+                            <div class="bg-white rounded-lg p-4 border-l-4 border-red-500">
+                                <h4 class="font-semibold text-red-900 mb-2">Lower Pole (Downhaul):</h4>
+                                <ul class="text-sm text-gray-700 space-y-1">
+                                    <li>• Strong wind - flattens sail, reduces heel</li>
+                                    <li>• Tight reaching</li>
+                                    <li>• When clews become uneven</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mt-4 bg-green-50 rounded-lg p-4 border-l-4 border-green-500">
+                            <p class="text-sm text-gray-700"><strong>General rule:</strong> Pole should be roughly perpendicular to mast, with both clews at same height.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Sheets & Guys -->
+        <section id="sheets" class="mb-16 fade-in">
+            <div class="bg-white rounded-2xl shadow-xl p-8">
+                <div class="flex items-center gap-4 mb-8">
+                    <div class="p-4 bg-orange-100 rounded-xl">
+                        <i class="fas fa-stream text-orange-600 text-3xl"></i>
+                    </div>
+                    <div>
+                        <h2 class="text-3xl font-bold text-gray-800">Sheets & Guys</h2>
+                        <p class="text-gray-600">Continuous vs. separate sheets, reaching control systems</p>
+                    </div>
+                </div>
+
+                <div class="space-y-8">
+                    <!-- Sheet Types -->
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+                            <i class="fas fa-question-circle text-blue-600"></i>
+                            Continuous or Separate Sheets?
+                        </h3>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div class="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl p-6">
+                                <h4 class="font-bold text-blue-900 mb-4 flex items-center gap-2">
+                                    <i class="fas fa-circle-notch"></i>
+                                    Continuous Sheet (One Long Line)
+                                </h4>
+                                <div class="space-y-3">
+                                    <div class="bg-white rounded-lg p-3">
+                                        <p class="text-sm font-semibold text-green-700 mb-2"><i class="fas fa-plus-circle"></i> Advantages:</p>
+                                        <ul class="text-xs text-gray-700 space-y-1">
+                                            <li>• Always to hand - never in lee bilge</li>
+                                            <li>• Essential for racing - enables weight on deck during gybe</li>
+                                            <li>• No need to reach across for loose sheet end</li>
+                                        </ul>
+                                    </div>
+                                    <div class="bg-white rounded-lg p-3">
+                                        <p class="text-sm font-semibold text-red-700 mb-2"><i class="fas fa-minus-circle"></i> Disadvantages:</p>
+                                        <ul class="text-xs text-gray-700 space-y-1">
+                                            <li>• More prone to getting in the way</li>
+                                            <li>• Can tangle when moving around boat</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <p class="text-xs text-gray-600 mt-3"><strong>Preferred by most racers</strong></p>
+                            </div>
+                            <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl p-6">
+                                <h4 class="font-bold text-green-900 mb-4 flex items-center gap-2">
+                                    <i class="fas fa-grip-lines"></i>
+                                    Separate Sheets (Two Lines)
+                                </h4>
+                                <div class="space-y-3">
+                                    <div class="bg-white rounded-lg p-3">
+                                        <p class="text-sm font-semibold text-green-700 mb-2"><i class="fas fa-plus-circle"></i> Advantages:</p>
+                                        <ul class="text-xs text-gray-700 space-y-1">
+                                            <li>• Less clutter in boat</li>
+                                            <li>• Can be permanently bent to sail</li>
+                                            <li>• Simpler for beginners to understand</li>
+                                        </ul>
+                                    </div>
+                                    <div class="bg-white rounded-lg p-3">
+                                        <p class="text-sm font-semibold text-red-700 mb-2"><i class="fas fa-minus-circle"></i> Disadvantages:</p>
+                                        <ul class="text-xs text-gray-700 space-y-1">
+                                            <li>• One often in lee bilge when needed</li>
+                                            <li>• Must reach across during gybe</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <p class="text-xs text-gray-600 mt-3"><strong>Fine for cruising</strong></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Attachment Method -->
+                    <div class="bg-gradient-to-r from-purple-50 to-pink-50 rounded-xl p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+                            <i class="fas fa-link text-purple-600"></i>
+                            Attaching Sheets to Sail
+                        </h3>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div class="bg-white rounded-lg p-4">
+                                <h4 class="font-semibold text-gray-800 mb-2"><i class="fas fa-star text-amber-500"></i> Recommended: Bowline Knot</h4>
+                                <ul class="text-sm text-gray-700 space-y-2">
+                                    <li>• Lighter than shackles (better in light air)</li>
+                                    <li>• Safer - no heavy metal to hit someone if flogging</li>
+                                    <li>• Preferred by most experienced sailors</li>
+                                </ul>
+                            </div>
+                            <div class="bg-white rounded-lg p-4">
+                                <h4 class="font-semibold text-gray-800 mb-2">Alternative: Lightweight Snap Shackles</h4>
+                                <ul class="text-sm text-gray-700 space-y-2">
+                                    <li>• Quicker attachment/removal</li>
+                                    <li>• Heavier (disadvantage in light winds)</li>
+                                    <li>• Safety risk if flogging hits face</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mt-4 bg-red-50 border-l-4 border-red-500 rounded-lg p-4">
+                            <p class="text-sm text-gray-700"><strong>Safety Note:</strong> Flogging shackle hitting face could cause serious injury including loss of eye. Risk applies to genoa and spinnaker.</p>
+                        </div>
+                    </div>
+
+                    <!-- Reaching Control Systems -->
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+                            <i class="fas fa-compass text-orange-600"></i>
+                            Reaching Control Systems
+                        </h3>
+                        <div class="bg-amber-50 border-2 border-amber-400 rounded-xl p-6 mb-6">
+                            <h4 class="font-semibold text-amber-900 mb-3"><i class="fas fa-question-circle"></i> Why Needed?</h4>
+                            <p class="text-sm text-gray-700">
+                                When reaching, pole is close to forestay and the angle between guy and pole becomes extremely narrow.
+                                This makes pole difficult to control and increases loads. Reaching control systems improve the angle.
+                            </p>
+                        </div>
+
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <!-- Reaching Hooks -->
+                            <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-6">
+                                <h4 class="font-bold text-blue-900 mb-4 flex items-center gap-2">
+                                    <i class="fas fa-anchor"></i>
+                                    Reaching Hooks (Simple)
+                                </h4>
+                                <div class="space-y-3">
+                                    <p class="text-sm text-gray-700">Alloy clam cleat with hook, positioned just in front of shrouds on edge of side deck.</p>
+                                    <div class="bg-white rounded-lg p-4">
+                                        <p class="text-sm font-semibold text-gray-800 mb-2">How it works:</p>
+                                        <ul class="text-xs text-gray-700 space-y-1">
+                                            <li>1. Guy cleated near shrouds (not further aft)</li>
+                                            <li>2. Improves angle to pole</li>
+                                            <li>3. Pole can't go further forward</li>
+                                            <li>4. Reduces loads and stress</li>
+                                        </ul>
+                                    </div>
+                                    <div class="bg-green-50 rounded-lg p-3 border-l-4 border-green-500">
+                                        <p class="text-xs text-gray-700"><strong>Pro tip:</strong> Mark guy with coloured thread so you can cleat at correct position every time!</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Twinning Lines -->
+                            <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-xl p-6">
+                                <h4 class="font-bold text-green-900 mb-4 flex items-center gap-2">
+                                    <i class="fas fa-project-diagram"></i>
+                                    Twinning Lines (Advanced)
+                                </h4>
+                                <div class="space-y-3">
+                                    <p class="text-sm text-gray-700">Small ball bearing block permanently attached to spinnaker sheets with control line.</p>
+                                    <div class="bg-white rounded-lg p-4">
+                                        <p class="text-sm font-semibold text-gray-800 mb-2">Setup:</p>
+                                        <ul class="text-xs text-gray-700 space-y-1">
+                                            <li>• Block attached to sheets (runs freely)</li>
+                                            <li>• Control line through deck fairlead at shroud</li>
+                                            <li>• Through block below, to jam cleat</li>
+                                        </ul>
+                                    </div>
+                                    <div class="bg-white rounded-lg p-4 mt-3">
+                                        <p class="text-sm font-semibold text-gray-800 mb-2">How it works:</p>
+                                        <ul class="text-xs text-gray-700 space-y-1">
+                                            <li>• <strong>Lee side (sheet):</strong> Control line slack - block runs freely - no effect</li>
+                                            <li>• <strong>Weather side (guy):</strong> Control line tight & cleated - block becomes new forward fairlead - improves angle!</li>
+                                        </ul>
+                                    </div>
+                                    <div class="bg-blue-50 rounded-lg p-3 border-l-4 border-blue-500 mt-3">
+                                        <p class="text-xs text-gray-700"><strong>Increasingly popular:</strong> Most modern racers prefer twinning lines over reaching hooks. Wouldn't use anything else!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Advanced: Stopper System -->
+                        <div class="mt-6 bg-purple-50 rounded-xl p-6 border-2 border-purple-300">
+                            <h4 class="font-semibold text-purple-900 mb-3 flex items-center gap-2">
+                                <i class="fas fa-graduation-cap"></i>
+                                Advanced: Continuous Sheet with Stopper
+                            </h4>
+                            <p class="text-sm text-gray-700 mb-3">
+                                When using continuous sheets, create a stopper to prevent guy paying out too far:
+                            </p>
+                            <div class="bg-white rounded-lg p-4">
+                                <ul class="text-sm text-gray-700 space-y-2">
+                                    <li>• Use continuous sheet with two different diameters</li>
+                                    <li>• Core is continuous throughout</li>
+                                    <li>• Outer sheath only in middle section (handling area)</li>
+                                    <li>• Sheath removed from ends</li>
+                                    <li>• Plastic ball stopper runs on core but won't pass over sheath</li>
+                                    <li>• Length calculated so when stopper jams against twinning line (pulled tight), pole can't quite reach forestay</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5: Hoisting Technique -->
+        <section id="hoisting" class="mb-16 fade-in">
+            <div class="bg-white rounded-2xl shadow-xl p-8">
+                <div class="flex items-center gap-4 mb-8">
+                    <div class="p-4 bg-green-100 rounded-xl">
+                        <i class="fas fa-arrow-up text-green-600 text-3xl"></i>
+                    </div>
+                    <div>
+                        <h2 class="text-3xl font-bold text-gray-800">Hoisting the Spinnaker</h2>
+                        <p class="text-gray-600">Step-by-step procedure for helm and crew</p>
+                    </div>
+                </div>
+
+                <div class="space-y-8">
+                    <!-- When to Learn -->
+                    <div class="bg-blue-50 border-l-4 border-blue-500 rounded-lg p-6">
+                        <h3 class="font-semibold text-blue-900 mb-2"><i class="fas fa-graduation-cap"></i> Best Conditions for Learning</h3>
+                        <p class="text-gray-700">
+                            Practice hoisting when running downwind in a breeze <strong>just strong enough to keep boat moving sensibly</strong>.
+                            Light drifting conditions teach you very little. Aim for moderate, steady wind initially.
+                        </p>
+                    </div>
+
+                    <!-- Hoisting Procedure -->
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+                            <i class="fas fa-list-ol text-green-600"></i>
+                            Hoisting Procedure
+                        </h3>
+                        <div class="bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl p-6">
+                            <div class="space-y-4">
+                                <div class="flex items-start gap-3 p-4 bg-white rounded-lg border-l-4 border-blue-500">
+                                    <div class="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-lg flex-shrink-0">1</div>
+                                    <div class="flex-1">
+                                        <h4 class="font-semibold text-gray-800 mb-2">Helmsman: Give Clear Command</h4>
+                                        <p class="text-sm text-gray-700">Call "Spinnaker up!" or "Hoisting!" clearly. Stand firmly in centre of boat. Begin hoisting while maintaining course downwind.</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 bg-white rounded-lg border-l-4 border-green-500">
+                                    <div class="w-12 h-12 bg-green-600 text-white rounded-full flex items-center justify-center font-bold text-lg flex-shrink-0">2</div>
+                                    <div class="flex-1">
+                                        <h4 class="font-semibold text-gray-800 mb-2">Crew: Grab Pole</h4>
+                                        <p class="text-sm text-gray-700">Stay in middle of boat. Grab pole and attach outer end to windward sheet (guy). This becomes the windward clew.</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 bg-white rounded-lg border-l-4 border-teal-500">
+                                    <div class="w-12 h-12 bg-teal-600 text-white rounded-full flex items-center justify-center font-bold text-lg flex-shrink-0">3</div>
+                                    <div class="flex-1">
+                                        <h4 class="font-semibold text-gray-800 mb-2">Crew: Attach Uphaul/Downhaul</h4>
+                                        <p class="text-sm text-gray-700">Hook or clip uphaul/downhaul to centre eyelet on pole. Check it's secure.</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 bg-white rounded-lg border-l-4 border-cyan-500">
+                                    <div class="w-12 h-12 bg-cyan-600 text-white rounded-full flex items-center justify-center font-bold text-lg flex-shrink-0">4</div>
+                                    <div class="flex-1">
+                                        <h4 class="font-semibold text-gray-800 mb-2">Crew: Clip Pole to Mast</h4>
+                                        <p class="text-sm text-gray-700">Clip inboard end of pole to ring on mast. Ensure secure attachment.</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 bg-white rounded-lg border-l-4 border-indigo-500">
+                                    <div class="w-12 h-12 bg-indigo-600 text-white rounded-full flex items-center justify-center font-bold text-lg flex-shrink-0">5</div>
+                                    <div class="flex-1">
+                                        <h4 class="font-semibold text-gray-800 mb-2">Helmsman: Hoist Quickly</h4>
+                                        <p class="text-sm text-gray-700">Pull halyard hand-over-hand rapidly until head reaches stopper knot (or few inches from mast). Cleat immediately.</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 bg-white rounded-lg border-l-4 border-purple-500">
+                                    <div class="w-12 h-12 bg-purple-600 text-white rounded-full flex items-center justify-center font-bold text-lg flex-shrink-0">6</div>
+                                    <div class="flex-1">
+                                        <h4 class="font-semibold text-gray-800 mb-2">Crew: Sit to Windward & Trim</h4>
+                                        <p class="text-sm text-gray-700">Move to windward side. Play both sheets (much more efficient and more fun!). Keep sail filled and as free as you dare.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Flying the Spinnaker -->
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+                            <i class="fas fa-wind text-blue-600"></i>
+                            Flying the Spinnaker
+                        </h3>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div class="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl p-6">
+                                <h4 class="font-bold text-blue-900 mb-4">Helmsman's Job</h4>
+                                <ul class="space-y-2 text-sm text-gray-700">
+                                    <li class="flex items-start gap-2">
+                                        <i class="fas fa-balance-scale text-blue-600 mt-1"></i>
+                                        <span>Keep boat balanced and flat</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <i class="fas fa-water text-blue-600 mt-1"></i>
+                                        <span>Steer down waves for speed</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <i class="fas fa-wind text-blue-600 mt-1"></i>
+                                        <span>Keep boat in clear wind</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <i class="fas fa-exclamation-triangle text-blue-600 mt-1"></i>
+                                        <span>Warn crew of gusts/wind changes</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <i class="fas fa-comments text-blue-600 mt-1"></i>
+                                        <span>Communicate constantly</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl p-6">
+                                <h4 class="font-bold text-green-900 mb-4">Crew's Job</h4>
+                                <ul class="space-y-2 text-sm text-gray-700">
+                                    <li class="flex items-start gap-2">
+                                        <i class="fas fa-eye text-green-600 mt-1"></i>
+                                        <span>Watch the shoulders (luff) constantly</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <i class="fas fa-arrows-alt-h text-green-600 mt-1"></i>
+                                        <span>Pull guy to windward until luff curls</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <i class="fas fa-undo text-green-600 mt-1"></i>
+                                        <span>Ease back a few inches until filled</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <i class="fas fa-sync text-green-600 mt-1"></i>
+                                        <span>Test constantly - ease, fill, ease, fill</span>
+                                    </li>
+                                    <li class="flex items-start gap-2">
+                                        <i class="fas fa-adjust text-green-600 mt-1"></i>
+                                        <span>Keep sheet as free as possible</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="mt-6 bg-amber-50 border-2 border-amber-400 rounded-xl p-6">
+                            <h4 class="font-bold text-amber-900 mb-3 flex items-center gap-2">
+                                <i class="fas fa-star"></i>
+                                Golden Rule of Spinnaker Trimming
+                            </h4>
+                            <p class="text-gray-700 text-lg">
+                                Keep the sail <strong>as free as you dare</strong>. Windward sheet and pole as far to windward as possible.
+                                Leeward sheet as free as possible. Constantly test for wind direction changes.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Common Mistakes -->
+                    <div class="bg-red-50 border-2 border-red-400 rounded-xl p-6">
+                        <h3 class="text-xl font-bold text-red-900 mb-4 flex items-center gap-2">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            Common Mistakes When Hoisting
+                        </h3>
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div class="bg-white rounded-lg p-4">
+                                <h4 class="font-semibold text-gray-800 mb-2">Equipment Failures</h4>
+                                <ul class="text-sm text-gray-700 space-y-1">
+                                    <li>• Fittings that fail under load</li>
+                                    <li>• Halyard knotting up instead of running free</li>
+                                    <li>• Poor quality end fittings opening unintentionally</li>
+                                    <li>• <strong>Solution:</strong> Buy quality fittings first time!</li>
+                                </ul>
+                            </div>
+                            <div class="bg-white rounded-lg p-4">
+                                <h4 class="font-semibold text-gray-800 mb-2">Crew Errors</h4>
+                                <ul class="text-sm text-gray-700 space-y-1">
+                                    <li>• Moving around too much - disturbs balance</li>
+                                    <li>• Not staying in middle during hoist</li>
+                                    <li>• Over-sheeting - trimming too tight</li>
+                                    <li>• Not watching luff for trim feedback</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 6: Lowering Technique -->
+        <section id="lowering" class="mb-16 fade-in">
+            <div class="bg-white rounded-2xl shadow-xl p-8">
+                <div class="flex items-center gap-4 mb-8">
+                    <div class="p-4 bg-red-100 rounded-xl">
+                        <i class="fas fa-arrow-down text-red-600 text-3xl"></i>
+                    </div>
+                    <div>
+                        <h2 class="text-3xl font-bold text-gray-800">Lowering the Spinnaker</h2>
+                        <p class="text-gray-600">Safe and controlled spinnaker drop procedure</p>
+                    </div>
+                </div>
+
+                <div class="space-y-8">
+                    <!-- Lowering Procedure -->
+                    <div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+                            <i class="fas fa-list-ol text-red-600"></i>
+                            Lowering Procedure
+                        </h3>
+                        <div class="bg-gradient-to-r from-red-50 to-orange-50 rounded-xl p-6">
+                            <div class="space-y-4">
+                                <div class="flex items-start gap-3 p-4 bg-white rounded-lg border-l-4 border-blue-500">
+                                    <div class="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-lg flex-shrink-0">1</div>
+                                    <div class="flex-1">
+                                        <h4 class="font-semibold text-gray-800 mb-2">Helmsman: Command in Good Time</h4>
+                                        <p class="text-sm text-gray-700">Call "Spinnaker down!" well before mark or course change. Don't rush - give crew time to prepare.</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 bg-white rounded-lg border-l-4 border-red-500">
+                                    <div class="w-12 h-12 bg-red-600 text-white rounded-full flex items-center justify-center font-bold text-lg flex-shrink-0">2</div>
+                                    <div class="flex-1">
+                                        <h4 class="font-semibold text-gray-800 mb-2">Crew: Unclip Pole from Mast</h4>
+                                        <p class="text-sm text-gray-700">Release inboard end of pole from mast ring first. Keep hold of pole!</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 bg-white rounded-lg border-l-4 border-orange-500">
+                                    <div class="w-12 h-12 bg-orange-600 text-white rounded-full flex items-center justify-center font-bold text-lg flex-shrink-0">3</div>
+                                    <div class="flex-1">
+                                        <h4 class="font-semibold text-gray-800 mb-2">Crew: Unclip from Uphaul/Downhaul</h4>
+                                        <p class="text-sm text-gray-700">Remove hook or clip from pole centre eyelet.</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 bg-white rounded-lg border-l-4 border-amber-500">
+                                    <div class="w-12 h-12 bg-amber-600 text-white rounded-full flex items-center justify-center font-bold text-lg flex-shrink-0">4</div>
+                                    <div class="flex-1">
+                                        <h4 class="font-semibold text-gray-800 mb-2">Crew: Unclip from Sheet</h4>
+                                        <p class="text-sm text-gray-700">Release pole from guy. Hand pole back to helmsman <strong>without dropping it overboard!</strong> (and without disturbing helm's teeth!)</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 bg-white rounded-lg border-l-4 border-green-500">
+                                    <div class="w-12 h-12 bg-green-600 text-white rounded-full flex items-center justify-center font-bold text-lg flex-shrink-0">5</div>
+                                    <div class="flex-1">
+                                        <h4 class="font-semibold text-gray-800 mb-2">Crew: Gather Foot of Sail</h4>
+                                        <p class="text-sm text-gray-700">Grab both clews and foot of spinnaker. Keep it forward of genoa.</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 bg-white rounded-lg border-l-4 border-teal-500">
+                                    <div class="w-12 h-12 bg-teal-600 text-white rounded-full flex items-center justify-center font-bold text-lg flex-shrink-0">6</div>
+                                    <div class="flex-1">
+                                        <h4 class="font-semibold text-gray-800 mb-2">Helmsman: Uncleat & Lower</h4>
+                                        <p class="text-sm text-gray-700">Release jam cleat. Crew lowers sail carefully between foredeck and genoa into bag/bucket/floor.</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 bg-white rounded-lg border-l-4 border-purple-500">
+                                    <div class="w-12 h-12 bg-purple-600 text-white rounded-full flex items-center justify-center font-bold text-lg flex-shrink-0">7</div>
+                                    <div class="flex-1">
+                                        <h4 class="font-semibold text-gray-800 mb-2">Crew: Check Centreboard</h4>
+                                        <p class="text-sm text-gray-700">Adjust centreboard position for next leg before resuming normal position.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Critical Tips -->
+                    <div class="bg-gradient-to-br from-red-50 to-orange-50 rounded-xl p-6 border-2 border-red-400">
+                        <h3 class="text-xl font-bold text-red-900 mb-4 flex items-center gap-2">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            Critical Tips for Safe Lowering
+                        </h3>
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div class="bg-white rounded-lg p-4 border-l-4 border-red-500">
+                                <h4 class="font-semibold text-gray-800 mb-2"><i class="fas fa-water"></i> Don't Let Sail Drag in Water!</h4>
+                                <p class="text-sm text-gray-700">Once sail touches water it becomes very heavy and can pull crew overboard. Keep it in boat at all costs.</p>
+                            </div>
+                            <div class="bg-white rounded-lg p-4 border-l-4 border-orange-500">
+                                <h4 class="font-semibold text-gray-800 mb-2"><i class="fas fa-anchor"></i> Don't Drop the Pole Overboard!</h4>
+                                <p class="text-sm text-gray-700">Hand pole carefully to helmsman. Losing pole overboard = end of downwind legs!</p>
+                            </div>
+                            <div class="bg-white rounded-lg p-4 border-l-4 border-amber-500">
+                                <h4 class="font-semibold text-gray-800 mb-2"><i class="fas fa-clock"></i> Allow Enough Time</h4>
+                                <p class="text-sm text-gray-700">Helm must command drop in good time. Rushing causes mistakes, tangles, and chaos.</p>
+                            </div>
+                            <div class="bg-white rounded-lg p-4 border-l-4 border-yellow-500">
+                                <h4 class="font-semibold text-gray-800 mb-2"><i class="fas fa-hands-helping"></i> Each Person Has Their Job</h4>
+                                <p class="text-sm text-gray-700">Let each person focus on their tasks. Minimize "helpful" suggestions. Trust your crew.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Chaos Prevention -->
+                    <div class="bg-blue-50 border-l-4 border-blue-500 rounded-lg p-6">
+                        <h3 class="font-semibold text-blue-900 mb-3 flex items-center gap-2">
+                            <i class="fas fa-shield-alt"></i>
+                            Preventing Spinnaker Chaos
+                        </h3>
+                        <p class="text-gray-700 mb-3">
+                            Much of the chaos seen in boats that "drives wives from the water forever and good crews to even more drink than usual" is caused by:
+                        </p>
+                        <ul class="space-y-2 text-gray-700">
+                            <li class="flex items-start gap-2">
+                                <i class="fas fa-times-circle text-red-600 mt-1"></i>
+                                <span><strong>Fittings that fail</strong> - invest in quality hardware from the start</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fas fa-times-circle text-red-600 mt-1"></i>
+                                <span><strong>Halliards that knot</strong> - ensure free-running lines and proper blocks</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fas fa-times-circle text-red-600 mt-1"></i>
+                                <span><strong>Poor communication</strong> - clear commands and responses</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fas fa-times-circle text-red-600 mt-1"></i>
+                                <span><strong>Too many "helpful" suggestions</strong> - let crew get on with their job!</span>
+                            </li>
+                        </ul>
+                        <p class="text-gray-700 mt-4">
+                            <strong>Don't blame the crew for being slow if the fittings are at fault.</strong> Both helmsman and crew have their own jobs to do.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Choosing a Spinnaker -->
+        <section class="mb-16 fade-in">
+            <div class="bg-white rounded-2xl shadow-xl p-8">
+                <div class="flex items-center gap-4 mb-8">
+                    <div class="p-4 bg-purple-100 rounded-xl">
+                        <i class="fas fa-shopping-cart text-purple-600 text-3xl"></i>
+                    </div>
+                    <div>
+                        <h2 class="text-3xl font-bold text-gray-800">Choosing a Spinnaker</h2>
+                        <p class="text-gray-600">New or secondhand - what to look for</p>
+                    </div>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl p-6">
+                        <h3 class="text-xl font-bold text-green-900 mb-4">New Spinnakers</h3>
+                        <p class="text-sm text-gray-700 mb-4">
+                            Most modern spinnakers from sailmakers regularly manufacturing for GP14s are good buys and will set easily and well.
+                        </p>
+                        <div class="space-y-3">
+                            <div class="bg-white rounded-lg p-4">
+                                <h4 class="font-semibold text-gray-800 mb-2"><i class="fas fa-check-circle text-green-600"></i> Good Colors:</h4>
+                                <ul class="text-sm text-gray-700 space-y-1">
+                                    <li>• Mid-tone colors (easy to "read" trim)</li>
+                                    <li>• Bright colors for visibility</li>
+                                    <li>• Patterns that show shape well</li>
+                                </ul>
+                            </div>
+                            <div class="bg-white rounded-lg p-4">
+                                <h4 class="font-semibold text-gray-800 mb-2"><i class="fas fa-times-circle text-red-600"></i> Avoid:</h4>
+                                <ul class="text-sm text-gray-700 space-y-1">
+                                    <li>• Very dark colors (difficult to "read")</li>
+                                    <li>• All white (excessive glare in sunlight)</li>
+                                    <li>• White "Dynac" material (brittle, tears easily)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl p-6">
+                        <h3 class="text-xl font-bold text-blue-900 mb-4">Secondhand Spinnakers</h3>
+                        <p class="text-sm text-gray-700 mb-4">
+                            A good secondhand sail can be an excellent purchase for beginners learning to handle spinnakers.
+                        </p>
+                        <div class="space-y-3">
+                            <div class="bg-white rounded-lg p-4">
+                                <h4 class="font-semibold text-gray-800 mb-2"><i class="fas fa-check-circle text-green-600"></i> What to Buy:</h4>
+                                <ul class="text-sm text-gray-700 space-y-1">
+                                    <li>• Not more than 3 years old</li>
+                                    <li>• Good chance of sound design</li>
+                                    <li>• Without excessive stretch</li>
+                                    <li>• From reputable sailmaker</li>
+                                </ul>
+                            </div>
+                            <div class="bg-white rounded-lg p-4">
+                                <h4 class="font-semibold text-gray-800 mb-2"><i class="fas fa-exclamation-triangle text-amber-600"></i> Check For:</h4>
+                                <ul class="text-sm text-gray-700 space-y-1">
+                                    <li>• Tears or repairs (especially corners)</li>
+                                    <li>• Excessive stretch or bagging</li>
+                                    <li>• UV damage (fading, weak fabric)</li>
+                                    <li>• Worn or damaged tapes/stitching</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-6 bg-purple-50 border-l-4 border-purple-500 rounded-lg p-6">
+                    <h4 class="font-semibold text-purple-900 mb-2"><i class="fas fa-info-circle"></i> About "Dynac" Material</h4>
+                    <p class="text-sm text-gray-700">
+                        All-white spinnakers are often made of "Dynac" - a top quality, high-performance product perfect for top-level racing.
+                        However, it's <strong>brittle and tears easily</strong> in the hands of beginners. Consider colored nylon instead for learning.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final Encouragement -->
+        <div class="text-center bg-gradient-to-r from-orange-100 to-red-100 rounded-2xl p-12 fade-in">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4">Don't Worry About the Spinnaker!</h2>
+            <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+                It's there to be enjoyed. It's a small sail readily handled by female crews or older children.
+                Cruising or racing, it will get you to your destination more quickly and give a new dimension to your sailing.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="crewing-guide.html" class="inline-flex items-center gap-2 bg-orange-600 text-white px-8 py-4 rounded-full font-semibold hover:bg-orange-700 transition-colors shadow-lg">
+                    <i class="fas fa-users"></i>
+                    Crewing Guide
+                </a>
+                <a href="tuning-guide.html" class="inline-flex items-center gap-2 bg-white text-orange-600 px-8 py-4 rounded-full font-semibold hover:bg-gray-50 transition-colors shadow-lg border-2 border-orange-600">
+                    <i class="fas fa-wrench"></i>
+                    Tuning Guides
+                </a>
+                <a href="index.html" class="inline-flex items-center gap-2 bg-white text-orange-600 px-8 py-4 rounded-full font-semibold hover:bg-gray-50 transition-colors shadow-lg border-2 border-orange-600">
+                    <i class="fas fa-home"></i>
+                    Back to Home
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12 mt-20">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-gray-400">
+                <i class="fas fa-parachute-box mr-2"></i>
+                GP14 Spinnaker Rigging Guide | Compilation of Expert Articles
+            </p>
+            <p class="text-gray-500 text-sm mt-2">
+                Oliver L. Shaw • Brian Hayes • Simon Relph
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // Fade in animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('section').forEach(section => {
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>

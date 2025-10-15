@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Championship GP14 heavy weather sailing guide. Master control, speed, and balance in strong winds 15-30+ knots. Depowering techniques, rig tuning, and safety strategies.">
+    <meta name="keywords" content="GP14 heavy weather, GP14 strong wind sailing, dinghy depowering, GP14 tuning heavy air, GP14 upwind in breeze, planing GP14 techniques">
+
+    <title>GP14 Heavy Weather Sailing & Survival Guide | Strong Wind Tuning</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fade-in-up {
+            animation: fadeInUp 0.6s ease-out forwards;
+        }
+    </style>
+</head>
+<body class="bg-slate-50">
+
+    <!-- Navigation -->
+    <nav class="bg-slate-900 shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex items-center gap-3">
+                    <i class="fas fa-water text-amber-500 text-2xl"></i>
+                    <div>
+                        <a href="index.html" class="text-white font-bold text-xl hover:text-amber-500 transition-colors">Donnelly GP14</a>
+                        <p class="text-gray-300 text-xs">Championship Builds</p>
+                    </div>
+                </div>
+
+                <div class="hidden md:flex items-center gap-6">
+                    <a href="index.html" class="text-white hover:text-amber-500 transition-colors font-medium">Home</a>
+                    <a href="tuning-guide.html" class="text-amber-500 font-medium">Guides</a>
+                    <a href="blog.html" class="text-white hover:text-amber-500 transition-colors font-medium">Blog</a>
+                    <a href="index.html#contact" class="text-white hover:text-amber-500 transition-colors font-medium">Contact</a>
+                </div>
+
+                <a href="tel:+447742545699" class="hidden sm:flex items-center gap-2 text-white hover:text-amber-500 transition-colors">
+                    <i class="fas fa-phone w-4 h-4"></i>
+                    <span class="text-sm font-medium">07742 545 699</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-red-900 via-orange-900 to-red-800 py-16 px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <div class="inline-block mb-6">
+                <i class="fas fa-wind text-orange-400 text-5xl"></i>
+            </div>
+            <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">
+                GP14 Heavy Weather Sailing & Survival Guide
+            </h1>
+            <p class="text-xl text-gray-200 mb-6">
+                Mastering Control, Speed & Balance in Strong Winds
+            </p>
+            <div class="inline-block bg-orange-500/20 border-2 border-orange-400 rounded-lg px-6 py-3">
+                <p class="text-orange-300 font-semibold">
+                    <i class="fas fa-bolt mr-2"></i>
+                    15–30+ Knots • Depowering Techniques • Championship Control
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Introduction -->
+    <section class="py-12 px-4">
+        <div class="max-w-4xl mx-auto">
+            <div class="bg-orange-50 border-l-4 border-orange-600 rounded-lg p-6 mb-8">
+                <p class="text-lg text-gray-800 mb-3">
+                    When the breeze pipes up beyond 15 knots, your GP14 transforms from a gentle trainer into a <strong class="text-orange-600">finely-tuned, high-performance machine</strong>.
+                </p>
+                <p class="text-gray-700 mb-3">
+                    Heavy-air sailing is about <strong>control, teamwork, and respect</strong> — for the power in your sails and the balance of your hull.
+                </p>
+                <p class="text-gray-700">
+                    This guide distills championship experience and technical tuning advice for managing your GP14 in strong conditions (15–30+ knots).
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="py-12 px-4">
+        <div class="max-w-5xl mx-auto space-y-12">
+
+            <!-- 1. Heavy-Air Setup -->
+            <div class="bg-white rounded-2xl shadow-lg p-8 fade-in-up border-t-4 border-red-600">
+                <div class="flex items-center gap-3 mb-6">
+                    <i class="fas fa-cog text-red-600 text-3xl"></i>
+                    <h2 class="text-3xl font-bold text-gray-900">1. Heavy-Air Setup — Power Under Control</h2>
+                </div>
+
+                <div class="bg-red-50 rounded-xl p-6 border-2 border-red-400 mb-6">
+                    <p class="text-lg text-gray-800 text-center font-semibold">
+                        In strong wind, your goal is to <strong class="text-red-600">depower without losing drive</strong>
+                    </p>
+                    <p class="text-gray-700 text-center mt-2">Start by flattening sails and tightening your rig</p>
+                </div>
+
+                <!-- Settings Table -->
+                <div class="overflow-x-auto mb-6">
+                    <table class="w-full border-collapse bg-white rounded-xl overflow-hidden shadow-lg">
+                        <thead>
+                            <tr class="bg-gradient-to-r from-red-600 to-orange-600">
+                                <th class="px-6 py-4 text-left text-white font-bold text-lg">Setting</th>
+                                <th class="px-6 py-4 text-left text-white font-bold text-lg">Target</th>
+                                <th class="px-6 py-4 text-left text-white font-bold text-lg">Why</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="bg-red-50 hover:bg-red-100 transition-colors border-b border-gray-200">
+                                <td class="px-6 py-4 font-semibold text-gray-900">Mast Rake</td>
+                                <td class="px-6 py-4 text-red-600 font-bold">6820–6840 mm</td>
+                                <td class="px-6 py-4 text-gray-700 text-sm">Moves centre of effort aft; reduces weather helm</td>
+                            </tr>
+                            <tr class="bg-orange-50 hover:bg-orange-100 transition-colors border-b border-gray-200">
+                                <td class="px-6 py-4 font-semibold text-gray-900">Rig Tension</td>
+                                <td class="px-6 py-4 text-orange-600 font-bold">260–280 lbs</td>
+                                <td class="px-6 py-4 text-gray-700 text-sm">Controls forestay sag; improves pointing in gusts</td>
+                            </tr>
+                            <tr class="bg-amber-50 hover:bg-amber-100 transition-colors border-b border-gray-200">
+                                <td class="px-6 py-4 font-semibold text-gray-900">Pre-bend / Chocks</td>
+                                <td class="px-6 py-4 text-amber-600 font-bold">Add bend</td>
+                                <td class="px-6 py-4 text-gray-700 text-sm">Flattens the main; avoids over-powered heel</td>
+                            </tr>
+                            <tr class="bg-red-50 hover:bg-red-100 transition-colors border-b border-gray-200">
+                                <td class="px-6 py-4 font-semibold text-gray-900">Outhaul</td>
+                                <td class="px-6 py-4 text-red-600 font-bold">Max tension</td>
+                                <td class="px-6 py-4 text-gray-700 text-sm">Keeps main flat and drag-free</td>
+                            </tr>
+                            <tr class="bg-orange-50 hover:bg-orange-100 transition-colors border-b border-gray-200">
+                                <td class="px-6 py-4 font-semibold text-gray-900">Cunningham</td>
+                                <td class="px-6 py-4 text-orange-600 font-bold">Firm</td>
+                                <td class="px-6 py-4 text-gray-700 text-sm">Moves draft forward; opens leech</td>
+                            </tr>
+                            <tr class="bg-amber-50 hover:bg-amber-100 transition-colors border-b border-gray-200">
+                                <td class="px-6 py-4 font-semibold text-gray-900">Kicker (Vang)</td>
+                                <td class="px-6 py-4 text-amber-600 font-bold">Tight upwind</td>
+                                <td class="px-6 py-4 text-gray-700 text-sm">Locks leech and controls twist</td>
+                            </tr>
+                            <tr class="bg-red-50 hover:bg-red-100 transition-colors">
+                                <td class="px-6 py-4 font-semibold text-gray-900">Traveller / Bridle</td>
+                                <td class="px-6 py-4 text-red-600 font-bold">Drop 2–3 in leeward</td>
+                                <td class="px-6 py-4 text-gray-700 text-sm">Reduces helm pressure and heel</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="bg-amber-50 border-l-4 border-amber-600 rounded-lg p-4">
+                    <p class="text-gray-800">
+                        <i class="fas fa-lightbulb text-amber-600 mr-2"></i>
+                        <strong>Pro Tip:</strong> Record your heavy-air rake and tension numbers on the deck edge or mast base. <strong>Consistency helps repeat performance</strong>.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 2. Crew Positioning & Trim -->
+            <div class="bg-white rounded-2xl shadow-lg p-8 fade-in-up border-t-4 border-orange-600">
+                <div class="flex items-center gap-3 mb-6">
+                    <i class="fas fa-users text-orange-600 text-3xl"></i>
+                    <h2 class="text-3xl font-bold text-gray-900">2. Crew Positioning & Trim</h2>
+                </div>
+
+                <div class="bg-orange-50 rounded-xl p-6 border-2 border-orange-400 mb-6">
+                    <p class="text-lg text-gray-800 text-center font-semibold">
+                        <strong class="text-orange-600">Teamwork matters more than anything</strong> when the GP14 is overpowered
+                    </p>
+                </div>
+
+                <div class="space-y-4">
+                    <div class="bg-gradient-to-br from-red-50 to-orange-50 rounded-xl p-6 border-2 border-red-400">
+                        <h3 class="text-lg font-bold text-red-900 mb-3">
+                            <i class="fas fa-hiking text-red-600 mr-2"></i>
+                            Crew Fully Hiked
+                        </h3>
+                        <p class="text-gray-800">
+                            Use your <strong class="text-red-600">thighs and core</strong> — not shoulders — to keep the boat flat.
+                        </p>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl p-6 border-2 border-blue-400">
+                        <h3 class="text-lg font-bold text-blue-900 mb-3">
+                            <i class="fas fa-anchor text-blue-600 mr-2"></i>
+                            Helm Slightly Aft
+                        </h3>
+                        <p class="text-gray-800">
+                            Lifts the bow in chop, <strong class="text-blue-600">preventing nose-diving</strong>.
+                        </p>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl p-6 border-2 border-green-400">
+                        <h3 class="text-lg font-bold text-green-900 mb-3">
+                            <i class="fas fa-balance-scale text-green-600 mr-2"></i>
+                            Active Balance
+                        </h3>
+                        <p class="text-gray-800">
+                            In gusts, crew <strong>eases mainsheet momentarily</strong> while helm keeps course steady.
+                        </p>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-purple-50 to-indigo-50 rounded-xl p-6 border-2 border-purple-400">
+                        <h3 class="text-lg font-bold text-purple-900 mb-3">
+                            <i class="fas fa-comments text-purple-600 mr-2"></i>
+                            Communication
+                        </h3>
+                        <p class="text-gray-800">
+                            Helm calls gusts early, crew <strong class="text-purple-600">pre-emptively flattens and trims</strong>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. Sail Trim -->
+            <div class="bg-white rounded-2xl shadow-lg p-8 fade-in-up border-t-4 border-amber-600">
+                <div class="flex items-center gap-3 mb-6">
+                    <i class="fas fa-wind text-amber-600 text-3xl"></i>
+                    <h2 class="text-3xl font-bold text-gray-900">3. Sail Trim for Control and Speed</h2>
+                </div>
+
+                <div class="space-y-6">
+                    <!-- Main -->
+                    <div class="bg-gradient-to-br from-red-50 to-orange-50 rounded-xl p-6 border-2 border-red-400">
+                        <h3 class="text-2xl font-bold text-red-900 mb-4">
+                            <i class="fas fa-flag text-red-600 mr-2"></i>
+                            Main
+                        </h3>
+                        <div class="space-y-3">
+                            <div class="bg-white rounded-lg p-4">
+                                <h4 class="font-semibold text-gray-900 mb-2">
+                                    <i class="fas fa-compress text-red-600 mr-2"></i>
+                                    Flatten Aggressively
+                                </h4>
+                                <p class="text-sm text-gray-700">Max outhaul, cunningham on hard</p>
+                            </div>
+                            <div class="bg-white rounded-lg p-4">
+                                <h4 class="font-semibold text-gray-900 mb-2">
+                                    <i class="fas fa-sliders-h text-red-600 mr-2"></i>
+                                    Fine Leech Control
+                                </h4>
+                                <p class="text-sm text-gray-700">Use <strong>mainsheet (not vang)</strong> for fine leech control in gusts</p>
+                            </div>
+                            <div class="bg-white rounded-lg p-4 border-2 border-orange-400">
+                                <h4 class="font-semibold text-orange-900 mb-2">
+                                    <i class="fas fa-hand-paper text-orange-600 mr-2"></i>
+                                    Easing Technique (Critical!)
+                                </h4>
+                                <p class="text-sm text-gray-700 mb-2">When overpowered, dump <strong class="text-orange-600">6–8 inches of sheet</strong> without easing vang</p>
+                                <p class="text-xs text-gray-600 bg-orange-50 rounded p-2 mt-2">This instantly spills wind yet maintains leech control</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Jib -->
+                    <div class="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl p-6 border-2 border-blue-400">
+                        <h3 class="text-2xl font-bold text-blue-900 mb-4">
+                            <i class="fas fa-flag text-blue-600 mr-2"></i>
+                            Jib
+                        </h3>
+                        <div class="space-y-3">
+                            <div class="bg-white rounded-lg p-4">
+                                <h4 class="font-semibold text-gray-900 mb-2">Lead Position</h4>
+                                <p class="text-sm text-gray-700">Move lead <strong class="text-blue-600">aft</strong> to flatten foot and open leech</p>
+                            </div>
+                            <div class="bg-white rounded-lg p-4">
+                                <h4 class="font-semibold text-gray-900 mb-2">Halyard Tension</h4>
+                                <p class="text-sm text-gray-700"><strong>Increase</strong> halyard tension to remove luff sag</p>
+                            </div>
+                            <div class="bg-white rounded-lg p-4">
+                                <h4 class="font-semibold text-gray-900 mb-2">Chop Management</h4>
+                                <p class="text-sm text-gray-700">Ease sheet slightly in steep chop to keep flow attached</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Spinnaker -->
+                    <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-6 border-2 border-purple-400">
+                        <h3 class="text-2xl font-bold text-purple-900 mb-4">
+                            <i class="fas fa-parachute-box text-purple-600 mr-2"></i>
+                            Spinnaker (Downwind)
+                        </h3>
+                        <div class="bg-amber-50 border-2 border-amber-400 rounded-lg p-4 mb-4">
+                            <p class="text-gray-800 font-semibold text-center">
+                                <i class="fas fa-exclamation-triangle text-amber-600 mr-2"></i>
+                                Only fly in planing conditions or manageable gusts
+                            </p>
+                        </div>
+                        <div class="space-y-3">
+                            <div class="bg-white rounded-lg p-4">
+                                <p class="text-sm text-gray-700">
+                                    <i class="fas fa-users text-purple-600 mr-2"></i>
+                                    Crew forward, weight leeward to <strong>promote early plane</strong>
+                                </p>
+                            </div>
+                            <div class="bg-white rounded-lg p-4">
+                                <p class="text-sm text-gray-700">
+                                    <i class="fas fa-arrow-down text-purple-600 mr-2"></i>
+                                    Control pole height — <strong>lower in stronger breeze</strong> to depower
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4. Boat Handling -->
+            <div class="bg-white rounded-2xl shadow-lg p-8 fade-in-up border-t-4 border-blue-600">
+                <div class="flex items-center gap-3 mb-6">
+                    <i class="fas fa-water text-blue-600 text-3xl"></i>
+                    <h2 class="text-3xl font-bold text-gray-900">4. Boat Handling in Waves and Gusts</h2>
+                </div>
+
+                <div class="space-y-6">
+                    <!-- Upwind -->
+                    <div class="bg-gradient-to-br from-cyan-50 to-blue-50 rounded-xl p-6 border-2 border-cyan-400">
+                        <h3 class="text-2xl font-bold text-cyan-900 mb-4">
+                            <i class="fas fa-arrow-up text-cyan-600 mr-2"></i>
+                            Upwind
+                        </h3>
+                        <div class="space-y-3">
+                            <div class="bg-white rounded-lg p-4">
+                                <h4 class="font-semibold text-gray-900 mb-2">Feather Through Gusts</h4>
+                                <p class="text-sm text-gray-700">Luff slightly into gusts, ease mainsheet, flatten boat, re-trim</p>
+                            </div>
+                            <div class="bg-white rounded-lg p-4">
+                                <h4 class="font-semibold text-gray-900 mb-2">Drive Through Chop</h4>
+                                <p class="text-sm text-gray-700">Don't pinch; <strong class="text-cyan-600">maintain momentum</strong> by bearing away slightly before crests</p>
+                            </div>
+                            <div class="bg-white rounded-lg p-4">
+                                <h4 class="font-semibold text-gray-900 mb-2">Keep Rudder Neutral</h4>
+                                <p class="text-sm text-gray-700"><strong class="text-cyan-600">Excess helm = drag</strong></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Downwind -->
+                    <div class="bg-gradient-to-br from-orange-50 to-red-50 rounded-xl p-6 border-2 border-orange-400">
+                        <h3 class="text-2xl font-bold text-orange-900 mb-4">
+                            <i class="fas fa-arrow-down text-orange-600 mr-2"></i>
+                            Downwind
+                        </h3>
+                        <div class="space-y-3">
+                            <div class="bg-white rounded-lg p-4">
+                                <p class="text-sm text-gray-700">
+                                    <i class="fas fa-compress-alt text-orange-600 mr-2"></i>
+                                    Ease kicker <strong>slightly</strong> for stability
+                                </p>
+                            </div>
+                            <div class="bg-white rounded-lg p-4 border-2 border-red-400">
+                                <p class="text-sm text-gray-700 font-semibold">
+                                    <i class="fas fa-exclamation-triangle text-red-600 mr-2"></i>
+                                    Stay alert — the GP14 can <strong class="text-red-600">roll-to-windward gybe</strong> if unbalanced
+                                </p>
+                            </div>
+                            <div class="bg-white rounded-lg p-4">
+                                <p class="text-sm text-gray-700">
+                                    <i class="fas fa-users text-orange-600 mr-2"></i>
+                                    Crew moves continuously to keep boat flat through surf
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tacks -->
+                    <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl p-6 border-2 border-green-400">
+                        <h3 class="text-2xl font-bold text-green-900 mb-4">
+                            <i class="fas fa-exchange-alt text-green-600 mr-2"></i>
+                            Tacks
+                        </h3>
+                        <div class="space-y-3">
+                            <div class="bg-white rounded-lg p-4">
+                                <p class="text-sm text-gray-700">
+                                    <i class="fas fa-check text-green-600 mr-2"></i>
+                                    Smooth, <strong>deliberate movements</strong>
+                                </p>
+                            </div>
+                            <div class="bg-white rounded-lg p-4">
+                                <p class="text-sm text-gray-700">
+                                    <i class="fas fa-check text-green-600 mr-2"></i>
+                                    Helm exits tack <strong class="text-green-600">low and flat</strong> — don't over-turn the tiller
+                                </p>
+                            </div>
+                            <div class="bg-white rounded-lg p-4">
+                                <p class="text-sm text-gray-700">
+                                    <i class="fas fa-check text-green-600 mr-2"></i>
+                                    Crew crosses <strong>low and fast</strong> to maintain balance
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5. Safety & Survival -->
+            <div class="bg-white rounded-2xl shadow-lg p-8 fade-in-up border-t-4 border-red-600">
+                <div class="flex items-center gap-3 mb-6">
+                    <i class="fas fa-life-ring text-red-600 text-3xl"></i>
+                    <h2 class="text-3xl font-bold text-gray-900">5. Safety & Survival Mode</h2>
+                </div>
+
+                <div class="bg-red-50 rounded-xl p-6 border-2 border-red-400 mb-6">
+                    <p class="text-lg text-gray-800 text-center font-semibold">
+                        When wind exceeds <strong class="text-red-600">25 knots</strong>, safety becomes top priority
+                    </p>
+                </div>
+
+                <div class="space-y-4">
+                    <div class="bg-gradient-to-br from-orange-50 to-amber-50 rounded-xl p-6 border-2 border-orange-400">
+                        <h3 class="text-lg font-bold text-orange-900 mb-3">
+                            <i class="fas fa-compress-alt text-orange-600 mr-2"></i>
+                            Reefing (Cruising Setup)
+                        </h3>
+                        <p class="text-gray-800">If available, <strong>put one reef in the main</strong></p>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl p-6 border-2 border-blue-400">
+                        <h3 class="text-lg font-bold text-blue-900 mb-3">
+                            <i class="fas fa-tint text-blue-600 mr-2"></i>
+                            Bailer Open
+                        </h3>
+                        <p class="text-gray-800">Drain constantly — <strong class="text-blue-600">a GP14 can ship water fast</strong></p>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl p-6 border-2 border-green-400">
+                        <h3 class="text-lg font-bold text-green-900 mb-3">
+                            <i class="fas fa-anchor text-green-600 mr-2"></i>
+                            Use the Centreboard Correctly
+                        </h3>
+                        <p class="text-gray-800"><strong>Half-raised</strong> can reduce capsize force on the rig</p>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-purple-50 to-indigo-50 rounded-xl p-6 border-2 border-purple-400">
+                        <h3 class="text-lg font-bold text-purple-900 mb-3">
+                            <i class="fas fa-redo text-purple-600 mr-2"></i>
+                            Capsize Recovery
+                        </h3>
+                        <p class="text-gray-800 mb-2">Always right the boat from the <strong class="text-purple-600">centreboard tip</strong>, not the gunwale</p>
+                        <p class="text-sm text-gray-700">Keep bow into wind before re-boarding</p>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-red-50 to-orange-50 rounded-xl p-6 border-2 border-red-400">
+                        <h3 class="text-lg font-bold text-red-900 mb-3">
+                            <i class="fas fa-hand-paper text-red-600 mr-2"></i>
+                            Know Your Limits
+                        </h3>
+                        <p class="text-gray-800"><strong class="text-red-600">Retire early</strong> if sustained gusts exceed your control threshold</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 6. Tactical Considerations -->
+            <div class="bg-white rounded-2xl shadow-lg p-8 fade-in-up border-t-4 border-indigo-600">
+                <div class="flex items-center gap-3 mb-6">
+                    <i class="fas fa-chess text-indigo-600 text-3xl"></i>
+                    <h2 class="text-3xl font-bold text-gray-900">6. Tactical Considerations</h2>
+                </div>
+
+                <div class="space-y-4">
+                    <div class="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl p-6 border-2 border-blue-400">
+                        <h3 class="text-lg font-bold text-blue-900 mb-2">
+                            <i class="fas fa-water text-blue-600 mr-2"></i>
+                            Flat Water Lane
+                        </h3>
+                        <p class="text-gray-800">In strong winds, <strong class="text-blue-600">smooth water beats gusty patches</strong></p>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-red-50 to-orange-50 rounded-xl p-6 border-2 border-red-400">
+                        <h3 class="text-lg font-bold text-red-900 mb-2">
+                            <i class="fas fa-ban text-red-600 mr-2"></i>
+                            Avoid Wind Shadows
+                        </h3>
+                        <p class="text-gray-800">Don't sail under other boats' wind shadows — <strong>their disturbed air hits twice as hard</strong></p>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl p-6 border-2 border-green-400">
+                        <h3 class="text-lg font-bold text-green-900 mb-2">
+                            <i class="fas fa-map-marker-alt text-green-600 mr-2"></i>
+                            Layline Discipline
+                        </h3>
+                        <p class="text-gray-800">Don't overstand; <strong class="text-green-600">one extra tack in 25 knots costs seconds and energy</strong></p>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-purple-50 to-indigo-50 rounded-xl p-6 border-2 border-purple-400">
+                        <h3 class="text-lg font-bold text-purple-900 mb-2">
+                            <i class="fas fa-flag-checkered text-purple-600 mr-2"></i>
+                            Start Conservatively
+                        </h3>
+                        <p class="text-gray-800">Keep clear air and room to <strong>bear away safely</strong> off the line</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 7. Common Mistakes -->
+            <div class="bg-white rounded-2xl shadow-lg p-8 fade-in-up border-t-4 border-red-600">
+                <div class="flex items-center gap-3 mb-6">
+                    <i class="fas fa-exclamation-triangle text-red-600 text-3xl"></i>
+                    <h2 class="text-3xl font-bold text-gray-900">7. Common Mistakes in Heavy Air</h2>
+                </div>
+
+                <div class="overflow-x-auto">
+                    <table class="w-full border-collapse bg-white rounded-xl overflow-hidden shadow-lg">
+                        <thead>
+                            <tr class="bg-gradient-to-r from-red-600 to-orange-600">
+                                <th class="px-6 py-4 text-left text-white font-bold text-lg">Mistake</th>
+                                <th class="px-6 py-4 text-left text-white font-bold text-lg">Why It Hurts</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="bg-red-50 hover:bg-red-100 transition-colors border-b border-gray-200">
+                                <td class="px-6 py-4 font-semibold text-gray-900">Over-sheeting main</td>
+                                <td class="px-6 py-4 text-gray-700">Induces weather helm and heel</td>
+                            </tr>
+                            <tr class="bg-orange-50 hover:bg-orange-100 transition-colors border-b border-gray-200">
+                                <td class="px-6 py-4 font-semibold text-gray-900">Insufficient rig tension</td>
+                                <td class="px-6 py-4 text-gray-700">Forestay sags → poor pointing</td>
+                            </tr>
+                            <tr class="bg-amber-50 hover:bg-amber-100 transition-colors border-b border-gray-200">
+                                <td class="px-6 py-4 font-semibold text-gray-900">Crew too far forward</td>
+                                <td class="px-6 py-4 text-gray-700">Nose dives in waves</td>
+                            </tr>
+                            <tr class="bg-red-50 hover:bg-red-100 transition-colors border-b border-gray-200">
+                                <td class="px-6 py-4 font-semibold text-gray-900">Ignoring vang tension</td>
+                                <td class="px-6 py-4 text-gray-700">Leech too open, loss of power control</td>
+                            </tr>
+                            <tr class="bg-orange-50 hover:bg-orange-100 transition-colors">
+                                <td class="px-6 py-4 font-semibold text-gray-900">Late easing in gusts</td>
+                                <td class="px-6 py-4 text-gray-700">Sudden heel and loss of speed</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Final Thoughts -->
+            <div class="bg-gradient-to-br from-slate-900 via-gray-800 to-slate-900 rounded-2xl shadow-2xl p-8 text-white fade-in-up border-4 border-orange-400">
+                <div class="text-center mb-8">
+                    <i class="fas fa-trophy text-orange-400 text-5xl mb-4"></i>
+                    <h2 class="text-3xl font-bold mb-4">Final Thoughts</h2>
+                </div>
+
+                <div class="space-y-6 text-gray-200">
+                    <p class="text-lg leading-relaxed text-center">
+                        In heavy weather, <strong class="text-orange-400">smoothness beats strength</strong>.
+                    </p>
+
+                    <div class="bg-white/10 backdrop-blur rounded-xl p-6 border border-white/20">
+                        <p class="text-lg leading-relaxed">
+                            The fastest GP14 sailors don't fight the boat — they <strong class="text-orange-300">anticipate the wind, flatten early, and keep their rhythm steady</strong>.
+                        </p>
+                    </div>
+
+                    <p class="text-lg leading-relaxed">
+                        When tuned right, the GP14 can <strong class="text-orange-400">plane effortlessly</strong>, carving upwind with control and confidence.
+                    </p>
+
+                    <div class="bg-white/10 backdrop-blur rounded-xl p-6 border border-white/20">
+                        <p class="text-lg leading-relaxed text-center">
+                            <strong class="text-orange-300">Train in breeze often</strong>, and your comfort zone will expand — what feels wild today will feel routine tomorrow.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 px-4 bg-gradient-to-r from-slate-900 to-red-900">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">
+                Need Help with Heavy Weather Performance?
+            </h2>
+            <p class="text-xl text-gray-200 mb-8">
+                Expert tuning and safety advice for GP14 strong wind sailing
+            </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="index.html#contact" class="inline-flex items-center justify-center bg-orange-500 hover:bg-orange-600 text-slate-900 font-semibold px-8 py-4 text-lg rounded-full shadow-xl transition-all">
+                    <i class="fas fa-envelope mr-2"></i>
+                    Contact Us
+                </a>
+                <a href="tuning-guide.html" class="inline-flex items-center justify-center bg-white text-slate-900 hover:bg-gray-100 font-semibold px-8 py-4 text-lg rounded-full shadow-lg transition-all">
+                    <i class="fas fa-book mr-2"></i>
+                    More Guides
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-white py-12 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <i class="fas fa-water text-amber-500 text-xl"></i>
+                        <span class="font-bold text-lg">Donnelly GP14</span>
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Championship-proven GP14 racing and cruising builds. CAD, CFD, and CNC precision craftsmanship.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="font-semibold mb-4 text-amber-500">Contact</h3>
+                    <div class="space-y-3 text-sm">
+                        <a href="tel:+442894479569" class="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+                            <i class="fas fa-phone w-4 h-4"></i>
+                            028 9447 9569
+                        </a>
+                        <a href="tel:+447742545699" class="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+                            <i class="fas fa-phone w-4 h-4"></i>
+                            07742 545 699
+                        </a>
+                        <a href="mailto:gp14build@gmail.com" class="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+                            <i class="fas fa-envelope w-4 h-4"></i>
+                            gp14build@gmail.com
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="font-semibold mb-4 text-amber-500">Quick Links</h3>
+                    <div class="space-y-2 text-sm">
+                        <a href="index.html" class="block text-gray-400 hover:text-white transition-colors">Home</a>
+                        <a href="tuning-guide.html" class="block text-gray-400 hover:text-white transition-colors">Guides</a>
+                        <a href="blog.html" class="block text-gray-400 hover:text-white transition-colors">Blog</a>
+                        <a href="index.html#contact" class="block text-gray-400 hover:text-white transition-colors">Contact</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-slate-800 pt-8 text-center text-sm text-gray-400">
+                <p>&copy; <span id="current-year"></span> Donnelly GP14 Racing and Cruising Builds. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+    <!-- Homepage -->
+    <url>
+        <loc>https://www.gp14.net/</loc>
+        <lastmod>2025-10-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68daf09813eefad34917be93/46e07781b_2img_3_1731192192424.jpg</image:loc>
+            <image:title>Donnelly GP14 CAD Hull Design</image:title>
+            <image:caption>3D CAD model of championship-winning GP14 sailboat hull</image:caption>
+        </image:image>
+    </url>
+
+    <!-- About Section -->
+    <url>
+        <loc>https://www.gp14.net/#about</loc>
+        <lastmod>2025-10-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Services Section -->
+    <url>
+        <loc>https://www.gp14.net
+/#services</loc>
+        <lastmod>2025-10-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Gallery Section -->
+    <url>
+        <loc>https://www.gp14.net/#gallery</loc>
+        <lastmod>2025-10-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://raw.githubusercontent.com/kevin102-debug/gp14/main/579A4865.jpg</image:loc>
+            <image:title>GP14 Varnish Finish</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://raw.githubusercontent.com/kevin102-debug/gp14/main/11.jpg</image:loc>
+            <image:title>GP14 on Trailer</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://raw.githubusercontent.com/kevin102-debug/gp14/main/515898131_24653783710890010_3587639566012014502_n.jpg</image:loc>
+            <image:title>GP14 Sailing with Spinnaker</image:title>
+        </image:image>
+    </url>
+
+    <!-- Contact Section -->
+    <url>
+        <loc>https://www.gp14.net/#contact</loc>
+        <lastmod>2025-10-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+</urlset>

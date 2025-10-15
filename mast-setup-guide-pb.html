@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Official Pinnell & Bax GP14 mast setup guide for Selden Cumulus and Superspar M7 masts. Complete rigging specifications and measurements.">
+    <meta name="keywords" content="GP14 mast setup, Selden Cumulus, Superspar M7, mast rake, spreader settings, rig tension, Pinnell Bax">
+
+    <title>P&B Mast Setup Guide | GP14 Selden & Superspar Specifications</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fade-in-up {
+            animation: fadeInUp 0.6s ease-out forwards;
+        }
+    </style>
+</head>
+<body class="bg-slate-50">
+
+    <!-- Navigation -->
+    <nav class="bg-slate-900 shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex items-center gap-3">
+                    <i class="fas fa-water text-amber-500 text-2xl"></i>
+                    <div>
+                        <a href="index.html" class="text-white font-bold text-xl hover:text-amber-500 transition-colors">Donnelly GP14</a>
+                        <p class="text-gray-300 text-xs">Championship Builds</p>
+                    </div>
+                </div>
+
+                <div class="hidden md:flex items-center gap-6">
+                    <a href="index.html" class="text-white hover:text-amber-500 transition-colors font-medium">Home</a>
+                    <a href="tuning-guide.html" class="text-amber-500 font-medium">Tuning Guides</a>
+                    <a href="blog.html" class="text-white hover:text-amber-500 transition-colors font-medium">Blog</a>
+                    <a href="index.html#contact" class="text-white hover:text-amber-500 transition-colors font-medium">Contact</a>
+                </div>
+
+                <a href="tel:+447742545699" class="hidden sm:flex items-center gap-2 text-white hover:text-amber-500 transition-colors">
+                    <i class="fas fa-phone w-4 h-4"></i>
+                    <span class="text-sm font-medium">07742 545 699</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-slate-800 via-gray-900 to-slate-800 py-16 px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <div class="inline-block mb-6">
+                <i class="fas fa-ruler-vertical text-amber-500 text-5xl"></i>
+            </div>
+            <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">
+                Pinnell & Bax Mast Setup Guide
+            </h1>
+            <p class="text-xl text-gray-300 mb-6">
+                Official rigging specifications for Selden Cumulus & Superspar M7 masts
+            </p>
+            <div class="inline-block bg-amber-500/20 border-2 border-amber-500 rounded-lg px-6 py-3">
+                <p class="text-amber-400 font-semibold">
+                    <i class="fas fa-anchor mr-2"></i>
+                    Crew Weight: 21-24 Stone | Mast Manufacturer Specifications
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="py-12 px-4">
+        <div class="max-w-5xl mx-auto space-y-12">
+
+            <!-- Mast Types Overview -->
+            <div class="bg-white rounded-2xl shadow-lg p-8 fade-in-up border-t-4 border-gray-700">
+                <div class="flex items-center gap-3 mb-6">
+                    <i class="fas fa-info-circle text-gray-700 text-3xl"></i>
+                    <h2 class="text-3xl font-bold text-gray-900">Mast Types Covered</h2>
+                </div>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-gradient-to-br from-gray-50 to-slate-100 rounded-xl p-6 border-2 border-gray-300">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">
+                            <i class="fas fa-check-circle text-gray-700 mr-2"></i>
+                            Selden Cumulus
+                        </h3>
+                        <p class="text-gray-700">Premium mast system with proven performance characteristics</p>
+                    </div>
+                    <div class="bg-gradient-to-br from-gray-50 to-slate-100 rounded-xl p-6 border-2 border-gray-300">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">
+                            <i class="fas fa-check-circle text-gray-700 mr-2"></i>
+                            Superspar M7
+                        </h3>
+                        <p class="text-gray-700">High-performance racing mast with optimized bend characteristics</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Spreader Settings -->
+            <div class="bg-white rounded-2xl shadow-lg p-8 fade-in-up border-t-4 border-blue-600">
+                <div class="flex items-center gap-3 mb-6">
+                    <i class="fas fa-arrows-alt-h text-blue-600 text-3xl"></i>
+                    <h2 class="text-3xl font-bold text-gray-900">Spreader Settings</h2>
+                </div>
+
+                <div class="bg-blue-50 border-2 border-blue-400 rounded-xl p-6 mb-6">
+                    <p class="text-blue-900 font-semibold text-center mb-4">
+                        <i class="fas fa-exclamation-triangle text-blue-600 mr-2"></i>
+                        Same settings for both Selden Cumulus and Superspar M7
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl p-6 border-2 border-blue-400">
+                        <div class="text-center mb-4">
+                            <i class="fas fa-ruler text-blue-600 text-4xl mb-3"></i>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Spreader Length (A)</h3>
+                        </div>
+                        <div class="bg-white rounded-lg p-6 text-center shadow-md">
+                            <p class="text-5xl font-bold text-blue-600">375mm</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-cyan-50 to-blue-50 rounded-xl p-6 border-2 border-cyan-400">
+                        <div class="text-center mb-4">
+                            <i class="fas fa-angle-right text-cyan-600 text-4xl mb-3"></i>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Spreader Angle (B)</h3>
+                        </div>
+                        <div class="bg-white rounded-lg p-6 text-center shadow-md">
+                            <p class="text-5xl font-bold text-cyan-600">155mm</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-6 bg-gray-50 rounded-lg p-4 border-l-4 border-blue-600">
+                    <p class="text-sm text-gray-700">
+                        <i class="fas fa-lightbulb text-blue-600 mr-2"></i>
+                        <strong>Measurement Note:</strong> Spreader length (A) is the total horizontal span. Spreader angle (B) is the perpendicular deflection from the mast centerline.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Mast Foot Position -->
+            <div class="bg-white rounded-2xl shadow-lg p-8 fade-in-up border-t-4 border-purple-600">
+                <div class="flex items-center gap-3 mb-6">
+                    <i class="fas fa-anchor text-purple-600 text-3xl"></i>
+                    <h2 class="text-3xl font-bold text-gray-900">Mast Foot Position</h2>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-6">
+                    <!-- Series 1 -->
+                    <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-6 border-2 border-purple-400">
+                        <h3 class="text-2xl font-bold text-purple-900 mb-4 text-center">
+                            <i class="fas fa-ship text-purple-600 mr-2"></i>
+                            Series 1
+                        </h3>
+                        <div class="bg-white rounded-lg p-6 shadow-md">
+                            <p class="text-gray-800 text-center font-semibold text-lg">
+                                Mast heel as far aft in the step as possible
+                            </p>
+                        </div>
+                        <div class="mt-4 bg-purple-100 rounded-lg p-4">
+                            <p class="text-sm text-purple-900 text-center">
+                                <i class="fas fa-arrow-left text-purple-600 mr-2"></i>
+                                Maximum aft position
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Series 11 (Mark 2) -->
+                    <div class="bg-gradient-to-br from-pink-50 to-purple-50 rounded-xl p-6 border-2 border-pink-400">
+                        <h3 class="text-2xl font-bold text-pink-900 mb-4 text-center">
+                            <i class="fas fa-ship text-pink-600 mr-2"></i>
+                            Series 11 (Mark 2)
+                        </h3>
+                        <div class="bg-white rounded-lg p-6 shadow-md">
+                            <p class="text-gray-700 text-sm mb-3 text-center">
+                                Measure from aft point on transom centerline to aft bolt on mast step
+                            </p>
+                            <div class="text-center">
+                                <p class="text-5xl font-bold text-pink-600">2840mm</p>
+                            </div>
+                        </div>
+                        <div class="mt-4 bg-pink-100 rounded-lg p-4">
+                            <p class="text-sm text-pink-900 text-center">
+                                <i class="fas fa-ruler text-pink-600 mr-2"></i>
+                                Precise measurement required
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-6 bg-yellow-50 border-2 border-yellow-400 rounded-lg p-4">
+                    <p class="text-sm text-gray-800">
+                        <i class="fas fa-info-circle text-yellow-600 mr-2"></i>
+                        <strong>Series 11 Note:</strong> You may need to measure through the transom flaps to reach the aft point on the centerline.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Mast Rake & Rig Tension -->
+            <div class="bg-white rounded-2xl shadow-lg p-8 fade-in-up border-t-4 border-green-600">
+                <div class="flex items-center gap-3 mb-6">
+                    <i class="fas fa-sliders-h text-green-600 text-3xl"></i>
+                    <h2 class="text-3xl font-bold text-gray-900">Mast Rake & Rig Tension</h2>
+                </div>
+
+                <!-- Settings Table -->
+                <div class="overflow-x-auto mb-6">
+                    <table class="w-full border-collapse">
+                        <thead>
+                            <tr class="bg-gradient-to-r from-green-600 to-emerald-600">
+                                <th class="px-6 py-4 text-left text-white font-bold text-lg border-b-2 border-green-700">Conditions</th>
+                                <th class="px-6 py-4 text-center text-white font-bold text-lg border-b-2 border-green-700">Mast Rake</th>
+                                <th class="px-6 py-4 text-center text-white font-bold text-lg border-b-2 border-green-700">Rig Tension</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="bg-cyan-50 hover:bg-cyan-100 transition-colors">
+                                <td class="px-6 py-4 font-semibold text-gray-800 border-b border-gray-200">
+                                    <i class="fas fa-wind text-cyan-500 mr-2"></i>Light
+                                </td>
+                                <td class="px-6 py-4 text-center text-gray-600 border-b border-gray-200">-</td>
+                                <td class="px-6 py-4 text-center border-b border-gray-200">
+                                    <span class="text-2xl font-bold text-cyan-600">400 lbs</span>
+                                </td>
+                            </tr>
+                            <tr class="bg-green-50 hover:bg-green-100 transition-colors">
+                                <td class="px-6 py-4 font-semibold text-gray-800 border-b border-gray-200">
+                                    <i class="fas fa-wind text-green-500 mr-2"></i>Medium
+                                </td>
+                                <td class="px-6 py-4 text-center border-b border-gray-200">
+                                    <span class="text-2xl font-bold text-green-600">21'9½" - 10"</span>
+                                </td>
+                                <td class="px-6 py-4 text-center border-b border-gray-200">
+                                    <span class="text-2xl font-bold text-green-600">400 lbs</span>
+                                </td>
+                            </tr>
+                            <tr class="bg-orange-50 hover:bg-orange-100 transition-colors">
+                                <td class="px-6 py-4 font-semibold text-gray-800">
+                                    <i class="fas fa-wind text-orange-500 mr-2"></i>Heavy
+                                </td>
+                                <td class="px-6 py-4 text-center text-gray-600">-</td>
+                                <td class="px-6 py-4 text-center">
+                                    <span class="text-2xl font-bold text-orange-600">350 - 400 lbs</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Mast Rake Measurement Instructions -->
+                <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl p-6 mb-6 border-2 border-green-400">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">
+                        <i class="fas fa-ruler-combined text-green-600 mr-2"></i>
+                        Measuring Mast Rake
+                    </h3>
+                    <div class="space-y-3">
+                        <div class="flex items-start gap-3 bg-white rounded-lg p-4">
+                            <div class="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center font-bold">1</div>
+                            <p class="text-gray-700">Measure from <strong>top of mast</strong> to <strong>top of transom</strong></p>
+                        </div>
+                        <div class="flex items-start gap-3 bg-white rounded-lg p-4">
+                            <div class="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center font-bold">2</div>
+                            <p class="text-gray-700">Measure with <strong>rig tension on</strong> (400 lbs)</p>
+                        </div>
+                        <div class="flex items-start gap-3 bg-white rounded-lg p-4">
+                            <div class="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center font-bold">3</div>
+                            <p class="text-gray-700">Find datum point: measure to <strong>top of gooseneck</strong> (18"), then swing tape to transom</p>
+                        </div>
+                        <div class="flex items-start gap-3 bg-white rounded-lg p-4">
+                            <div class="flex-shrink-0 w-8 h-8 bg-green-600 text-white rounded-full flex items-center justify-center font-bold">4</div>
+                            <p class="text-gray-700">After achieving rake, measure pre-bend: <strong>5mm bend at spreader height</strong></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Rig Tension Strategy -->
+                <div class="bg-gradient-to-br from-emerald-50 to-green-50 rounded-xl p-6 border-2 border-emerald-400">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">
+                        <i class="fas fa-chart-line text-emerald-600 mr-2"></i>
+                        Rig Tension Strategy
+                    </h3>
+                    <div class="bg-white rounded-lg p-6 shadow-md">
+                        <div class="space-y-4">
+                            <div class="flex items-start gap-3">
+                                <i class="fas fa-arrow-right text-emerald-600 mt-1"></i>
+                                <p class="text-gray-800"><strong>Base setting:</strong> 400 lbs for most conditions</p>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i class="fas fa-arrow-up text-blue-600 mt-1"></i>
+                                <p class="text-gray-800"><strong>As wind increases:</strong> Add more rig tension until overpowered</p>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i class="fas fa-arrow-down text-orange-600 mt-1"></i>
+                                <p class="text-gray-800"><strong>When overpowered:</strong> Begin reducing tension back to 350-400 lbs range</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Genoa Fairleads -->
+            <div class="bg-white rounded-2xl shadow-lg p-8 fade-in-up border-t-4 border-indigo-600">
+                <div class="flex items-center gap-3 mb-6">
+                    <i class="fas fa-compass text-indigo-600 text-3xl"></i>
+                    <h2 class="text-3xl font-bold text-gray-900">Genoa Fairleads</h2>
+                </div>
+
+                <div class="bg-indigo-50 border-2 border-indigo-400 rounded-xl p-6 mb-6">
+                    <h3 class="text-lg font-bold text-indigo-900 mb-3 text-center">
+                        Base Position
+                    </h3>
+                    <p class="text-center text-gray-800 font-semibold text-lg">
+                        Fairleads from centreline - <strong>Middle of deck</strong>
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-6">
+                    <!-- Medium Winds -->
+                    <div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-6 border-2 border-blue-400">
+                        <h3 class="text-xl font-bold text-blue-900 mb-4 text-center">
+                            <i class="fas fa-wind text-blue-600 mr-2"></i>
+                            Medium Winds
+                        </h3>
+                        <div class="bg-white rounded-lg p-6 text-center shadow-md">
+                            <p class="text-3xl font-bold text-blue-600 mb-2">1 hole aft</p>
+                            <p class="text-sm text-gray-600">From base position</p>
+                        </div>
+                    </div>
+
+                    <!-- Strong Winds -->
+                    <div class="bg-gradient-to-br from-orange-50 to-red-50 rounded-xl p-6 border-2 border-orange-400">
+                        <h3 class="text-xl font-bold text-orange-900 mb-4 text-center">
+                            <i class="fas fa-wind text-orange-600 mr-2"></i>
+                            Strong Winds (20+ knots)
+                        </h3>
+                        <div class="bg-white rounded-lg p-6 text-center shadow-md">
+                            <p class="text-3xl font-bold text-orange-600 mb-2">2 holes aft</p>
+                            <p class="text-sm text-gray-600">From base position</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-6 bg-indigo-50 border-l-4 border-indigo-600 rounded-lg p-4">
+                    <p class="text-gray-800">
+                        <i class="fas fa-info-circle text-indigo-600 mr-2"></i>
+                        <strong>Purpose:</strong> Moving fairleads aft opens the upper leach of the sail, preventing the slot from choking in stronger winds.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Quick Reference Card -->
+            <div class="bg-gradient-to-br from-slate-900 via-gray-800 to-slate-900 rounded-2xl shadow-2xl p-8 text-white fade-in-up border-4 border-amber-500">
+                <div class="text-center mb-6">
+                    <i class="fas fa-bookmark text-amber-500 text-4xl mb-3"></i>
+                    <h2 class="text-3xl font-bold">Quick Reference</h2>
+                    <p class="text-gray-300 mt-2">Pinnell & Bax Mast Setup - Key Numbers</p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-white/10 backdrop-blur rounded-lg p-4 border border-white/20">
+                        <p class="text-amber-400 font-semibold mb-1 text-sm">Spreader Length</p>
+                        <p class="text-2xl font-bold">375mm</p>
+                    </div>
+                    <div class="bg-white/10 backdrop-blur rounded-lg p-4 border border-white/20">
+                        <p class="text-amber-400 font-semibold mb-1 text-sm">Spreader Angle</p>
+                        <p class="text-2xl font-bold">155mm</p>
+                    </div>
+                    <div class="bg-white/10 backdrop-blur rounded-lg p-4 border border-white/20">
+                        <p class="text-amber-400 font-semibold mb-1 text-sm">Mast Position (Mk2)</p>
+                        <p class="text-2xl font-bold">2840mm</p>
+                    </div>
+                    <div class="bg-white/10 backdrop-blur rounded-lg p-4 border border-white/20">
+                        <p class="text-amber-400 font-semibold mb-1 text-sm">Base Rig Tension</p>
+                        <p class="text-2xl font-bold">400 lbs</p>
+                    </div>
+                    <div class="bg-white/10 backdrop-blur rounded-lg p-4 border border-white/20">
+                        <p class="text-amber-400 font-semibold mb-1 text-sm">Mast Rake (Medium)</p>
+                        <p class="text-2xl font-bold">21'9½"-10"</p>
+                    </div>
+                    <div class="bg-white/10 backdrop-blur rounded-lg p-4 border border-white/20">
+                        <p class="text-amber-400 font-semibold mb-1 text-sm">Pre-bend Target</p>
+                        <p class="text-2xl font-bold">5mm</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- About Pinnell & Bax -->
+            <div class="bg-gradient-to-br from-red-50 to-pink-50 rounded-2xl shadow-lg p-8 fade-in-up border-t-4 border-red-600">
+                <div class="flex items-center gap-3 mb-6">
+                    <i class="fas fa-building text-red-600 text-3xl"></i>
+                    <h2 class="text-3xl font-bold text-gray-900">About Pinnell & Bax</h2>
+                </div>
+                <div class="prose max-w-none">
+                    <p class="text-gray-700 mb-4">
+                        Pinnell & Bax are renowned sailmakers and rigging specialists with decades of experience in dinghy racing. Their tuning guides represent the collective knowledge of champion sailors and their expertise in optimizing boat performance.
+                    </p>
+                    <div class="bg-white rounded-lg p-6 shadow-md">
+                        <h3 class="text-lg font-bold text-gray-900 mb-3">
+                            <i class="fas fa-phone text-red-600 mr-2"></i>
+                            Contact Pinnell & Bax
+                        </h3>
+                        <div class="space-y-2 text-gray-700">
+                            <p><strong>Tel:</strong> <a href="tel:+441604592808" class="text-red-600 hover:text-red-700 font-semibold">01604 592808</a></p>
+                            <p><strong>Fax:</strong> 01604 592818</p>
+                            <p><strong>Web:</strong> <a href="https://www.pinbax.com" target="_blank" rel="noopener" class="text-red-600 hover:text-red-700 font-semibold">www.pinbax.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 px-4 bg-gradient-to-r from-slate-900 to-blue-900">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">
+                Need Help with Your Mast Setup?
+            </h2>
+            <p class="text-xl text-gray-200 mb-8">
+                Expert advice for GP14 rigging and tuning
+            </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="index.html#contact" class="inline-flex items-center justify-center bg-amber-500 hover:bg-amber-600 text-slate-900 font-semibold px-8 py-4 text-lg rounded-full shadow-xl transition-all">
+                    <i class="fas fa-envelope mr-2"></i>
+                    Contact Us
+                </a>
+                <a href="tuning-guide.html" class="inline-flex items-center justify-center bg-white text-slate-900 hover:bg-gray-100 font-semibold px-8 py-4 text-lg rounded-full shadow-lg transition-all">
+                    <i class="fas fa-book mr-2"></i>
+                    More Guides
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-white py-12 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <i class="fas fa-water text-amber-500 text-xl"></i>
+                        <span class="font-bold text-lg">Donnelly GP14</span>
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Championship-proven GP14 racing and cruising builds. CAD, CFD, and CNC precision craftsmanship.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="font-semibold mb-4 text-amber-500">Contact</h3>
+                    <div class="space-y-3 text-sm">
+                        <a href="tel:+442894479569" class="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+                            <i class="fas fa-phone w-4 h-4"></i>
+                            028 9447 9569
+                        </a>
+                        <a href="tel:+447742545699" class="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+                            <i class="fas fa-phone w-4 h-4"></i>
+                            07742 545 699
+                        </a>
+                        <a href="mailto:gp14build@gmail.com" class="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+                            <i class="fas fa-envelope w-4 h-4"></i>
+                            gp14build@gmail.com
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="font-semibold mb-4 text-amber-500">Quick Links</h3>
+                    <div class="space-y-2 text-sm">
+                        <a href="index.html" class="block text-gray-400 hover:text-white transition-colors">Home</a>
+                        <a href="tuning-guide.html" class="block text-gray-400 hover:text-white transition-colors">Tuning Guides</a>
+                        <a href="blog.html" class="block text-gray-400 hover:text-white transition-colors">Blog</a>
+                        <a href="index.html#contact" class="block text-gray-400 hover:text-white transition-colors">Contact</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-slate-800 pt-8 text-center text-sm text-gray-400">
+                <p>&copy; <span id="current-year"></span> Donnelly GP14 Racing and Cruising Builds. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
