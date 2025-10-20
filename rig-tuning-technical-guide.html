@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Comprehensive technical reference for GP14 rig tuning with chainplate adjusters and mast gate chocks. Complete settings for all wind conditions.">
+    <meta name="keywords" content="GP14 rig tuning, chainplate adjusters, mast gate chocks, mast rake, rig tension, GP14 technical guide, sailing setup">
+
+    <title>GP14 Rig Tuning Guide: Chainplate Adjusters & Mast Gate Chocks | Donnelly GP14</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-slate-50">
+
+    <!-- Navigation -->
+    <nav class="bg-slate-900 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex items-center gap-3">
+                    <i class="fas fa-water text-amber-500 text-2xl"></i>
+                    <div>
+                        <a href="index.html" class="text-white font-bold text-xl hover:text-amber-500 transition-colors">Donnelly GP14</a>
+                        <p class="text-gray-300 text-xs">Championship Builds</p>
+                    </div>
+                </div>
+
+                <div class="hidden md:flex items-center gap-6">
+                    <a href="index.html" class="text-white hover:text-amber-500 transition-colors font-medium">Home</a>
+                    <a href="index.html#about" class="text-white hover:text-amber-500 transition-colors font-medium">About</a>
+                    <a href="index.html#services" class="text-white hover:text-amber-500 transition-colors font-medium">Services</a>
+                    <a href="tuning-guide.html" class="text-white hover:text-amber-500 transition-colors font-medium">Tuning Guide</a>
+                    <a href="blog.html" class="text-amber-500 font-medium">Blog</a>
+                    <a href="index.html#contact" class="text-white hover:text-amber-500 transition-colors font-medium">Contact</a>
+                </div>
+
+                <a href="tel:+447742545699" class="hidden sm:flex items-center gap-2 text-white hover:text-amber-500 transition-colors">
+                    <i class="fas fa-phone w-4 h-4"></i>
+                    <span class="text-sm font-medium">07742 545 699</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Back to Blog Button -->
+    <section class="py-6 px-4 bg-white border-b">
+        <div class="max-w-6xl mx-auto">
+            <a href="blog.html" class="inline-flex items-center gap-2 text-orange-600 hover:text-orange-700 font-semibold transition-colors">
+                <i class="fas fa-arrow-left"></i>
+                Back to Blog
+            </a>
+        </div>
+    </section>
+
+    <!-- Article Hero -->
+    <article class="bg-white">
+        <div class="relative h-96 overflow-hidden">
+            <img src="chainplategp14.jpg" alt="GP14 Chainplate Adjusters" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/70"></div>
+            <div class="absolute top-6 left-6">
+                <span class="bg-blue-500 text-white text-sm font-bold px-4 py-2 rounded-full shadow-lg">Technical Guide</span>
+            </div>
+            <div class="absolute bottom-0 left-0 right-0 p-8">
+                <div class="max-w-6xl mx-auto">
+                    <h1 class="text-4xl md:text-5xl font-bold text-white mb-3 drop-shadow-lg">GP14 Rig Tuning Guide: Chainplate Adjusters & Mast Gate Chocks</h1>
+                    <p class="text-xl text-gray-200 drop-shadow-lg">Comprehensive Technical Reference</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Article Content -->
+        <div class="max-w-4xl mx-auto px-4 py-12">
+            <div class="flex items-center gap-6 text-sm text-gray-500 mb-8">
+                <div class="flex items-center gap-2">
+                    <i class="fas fa-calendar"></i>
+                    <span>October 20, 2025</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <i class="fas fa-clock"></i>
+                    <span>10 min read</span>
+                </div>
+            </div>
+
+            <div class="prose prose-lg max-w-none">
+                <!-- Core Principles Section -->
+                <div class="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-xl p-6 mb-8 border-l-4 border-blue-500">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+                        <i class="fas fa-anchor text-blue-600"></i>
+                        1. Core Principles
+                    </h2>
+
+                    <p class="text-gray-700 mb-4 text-lg">Your two main geometric controls:</p>
+
+                    <div class="overflow-x-auto">
+                        <table class="w-full mb-4">
+                            <thead class="bg-blue-100">
+                                <tr>
+                                    <th class="px-4 py-2 text-left font-bold text-gray-900">Control</th>
+                                    <th class="px-4 py-2 text-left font-bold text-gray-900">Function</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="border-b border-gray-200">
+                                    <td class="px-4 py-3 font-semibold text-gray-900">Vertical chainplate adjusters (shroud pins/channels)</td>
+                                    <td class="px-4 py-3 text-gray-700">Set mast rake and baseline rig tension. Moving pins up makes the mast more upright (less rake, tighter forestay, flatter sails). Moving pins down increases rake (softer forestay, more power).</td>
+                                </tr>
+                                <tr class="border-b border-gray-200">
+                                    <td class="px-4 py-3 font-semibold text-gray-900">Mast-gate chocks</td>
+                                    <td class="px-4 py-3 text-gray-700">Fine-tune mast bend at deck level. Adding or removing them changes how freely the mast can bend under load, which directly affects mainsail depth and leech tension.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="bg-white rounded-lg p-6 mt-4">
+                        <p class="text-gray-700 text-lg italic text-center">
+                            The adjusters provide the <strong class="text-blue-700">coarse tuning</strong>; chocks provide the <strong class="text-cyan-700">fine control</strong>.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Interaction Summary -->
+                <div class="bg-gradient-to-r from-purple-50 to-pink-50 rounded-xl p-6 mb-8 border-l-4 border-purple-500">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+                        <i class="fas fa-cog text-purple-600"></i>
+                        2. Interaction Summary
+                    </h2>
+
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-sm">
+                            <thead class="bg-purple-100">
+                                <tr>
+                                    <th class="px-3 py-2 text-left font-bold text-gray-900">Adjustment</th>
+                                    <th class="px-3 py-2 text-left font-bold text-gray-900">Mast Rake</th>
+                                    <th class="px-3 py-2 text-left font-bold text-gray-900">Forestay</th>
+                                    <th class="px-3 py-2 text-left font-bold text-gray-900">Mast Bend</th>
+                                    <th class="px-3 py-2 text-left font-bold text-gray-900">Sail Shape</th>
+                                    <th class="px-3 py-2 text-left font-bold text-gray-900">Typical Use</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="border-b border-gray-200 bg-white">
+                                    <td class="px-3 py-3 font-semibold">Pins down (lower hole)</td>
+                                    <td class="px-3 py-3">More rake aft</td>
+                                    <td class="px-3 py-3 text-orange-700">Softer</td>
+                                    <td class="px-3 py-3">More bend</td>
+                                    <td class="px-3 py-3">Fuller</td>
+                                    <td class="px-3 py-3 text-green-700 font-semibold">Light winds (power)</td>
+                                </tr>
+                                <tr class="border-b border-gray-200 bg-purple-50">
+                                    <td class="px-3 py-3 font-semibold">Pins up (higher hole)</td>
+                                    <td class="px-3 py-3">More upright</td>
+                                    <td class="px-3 py-3 text-green-700">Tighter</td>
+                                    <td class="px-3 py-3">Less bend</td>
+                                    <td class="px-3 py-3">Flatter</td>
+                                    <td class="px-3 py-3 text-blue-700 font-semibold">Strong winds (control)</td>
+                                </tr>
+                                <tr class="border-b border-gray-200 bg-white">
+                                    <td class="px-3 py-3 font-semibold">Add front chocks</td>
+                                    <td class="px-3 py-3">Mast straighter</td>
+                                    <td class="px-3 py-3 text-green-700">Tighter</td>
+                                    <td class="px-3 py-3">Less bend</td>
+                                    <td class="px-3 py-3">Deeper main, tighter leech</td>
+                                    <td class="px-3 py-3 text-green-700 font-semibold">Add power</td>
+                                </tr>
+                                <tr class="border-b border-gray-200 bg-purple-50">
+                                    <td class="px-3 py-3 font-semibold">Remove front chocks</td>
+                                    <td class="px-3 py-3">Mast free to bend</td>
+                                    <td class="px-3 py-3 text-orange-700">Looser</td>
+                                    <td class="px-3 py-3">More bend</td>
+                                    <td class="px-3 py-3">Flatter main, open leech</td>
+                                    <td class="px-3 py-3 text-blue-700 font-semibold">Depower</td>
+                                </tr>
+                                <tr class="border-b border-gray-200 bg-white">
+                                    <td class="px-3 py-3 font-semibold">Add behind-mast chock</td>
+                                    <td class="px-3 py-3">Pushes mast forward</td>
+                                    <td class="px-3 py-3 text-green-700">Slightly tighter</td>
+                                    <td class="px-3 py-3">More prebend</td>
+                                    <td class="px-3 py-3">Flattens main further</td>
+                                    <td class="px-3 py-3 text-blue-700 font-semibold">Max depower</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Recommended Starting Settings -->
+                <div class="bg-gradient-to-r from-amber-50 to-orange-50 rounded-xl p-6 mb-8 border-l-4 border-amber-500">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+                        <i class="fas fa-compass text-amber-600"></i>
+                        3. Recommended Starting Settings
+                    </h2>
+
+                    <p class="text-sm text-gray-600 italic mb-4">
+                        (Assuming Selden or Superspars mast; measure mast rake from top of mast to top of transom deck)
+                    </p>
+
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-sm">
+                            <thead class="bg-amber-100">
+                                <tr>
+                                    <th class="px-3 py-2 text-left font-bold text-gray-900">Wind Strength</th>
+                                    <th class="px-3 py-2 text-left font-bold text-gray-900">Shroud Pin Hole (count from top)</th>
+                                    <th class="px-3 py-2 text-left font-bold text-gray-900">Mast Rake</th>
+                                    <th class="px-3 py-2 text-left font-bold text-gray-900">Front-of-Mast Chocks</th>
+                                    <th class="px-3 py-2 text-left font-bold text-gray-900">Behind-Mast Chocks</th>
+                                    <th class="px-3 py-2 text-left font-bold text-gray-900">Rig Tension (Loos Gauge)</th>
+                                    <th class="px-3 py-2 text-left font-bold text-gray-900">Performance Aim</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="border-b border-gray-200 bg-green-50">
+                                    <td class="px-3 py-3 font-bold">Light (&lt; 8 kt)</td>
+                                    <td class="px-3 py-3">4 – 5 (lower down)</td>
+                                    <td class="px-3 py-3">~6900 mm</td>
+                                    <td class="px-3 py-3">2 thin (≈ 10 mm total)</td>
+                                    <td class="px-3 py-3">None</td>
+                                    <td class="px-3 py-3">18 – 20 (~300-350 lb)</td>
+                                    <td class="px-3 py-3 text-green-700 font-semibold">Maximum drive and height in lulls</td>
+                                </tr>
+                                <tr class="border-b border-gray-200 bg-blue-50">
+                                    <td class="px-3 py-3 font-bold">Medium (8–14 kt)</td>
+                                    <td class="px-3 py-3">3 – 4</td>
+                                    <td class="px-3 py-3">~6875–6885 mm</td>
+                                    <td class="px-3 py-3">1 thin (≈ 5 mm)</td>
+                                    <td class="px-3 py-3">None</td>
+                                    <td class="px-3 py-3">22 – 24 (~400 lb)</td>
+                                    <td class="px-3 py-3 text-blue-700 font-semibold">Balanced height vs speed</td>
+                                </tr>
+                                <tr class="border-b border-gray-200 bg-orange-50">
+                                    <td class="px-3 py-3 font-bold">Fresh (14–18 kt)</td>
+                                    <td class="px-3 py-3">2 – 3</td>
+                                    <td class="px-3 py-3">~6860–6870 mm</td>
+                                    <td class="px-3 py-3">None</td>
+                                    <td class="px-3 py-3">Optional 1 thin</td>
+                                    <td class="px-3 py-3">24 – 26 (~420-440 lb)</td>
+                                    <td class="px-3 py-3 text-orange-700 font-semibold">Depowered but still responsive</td>
+                                </tr>
+                                <tr class="border-b border-gray-200 bg-red-50">
+                                    <td class="px-3 py-3 font-bold">Heavy (&gt; 18 kt)</td>
+                                    <td class="px-3 py-3">1 – 2 (top)</td>
+                                    <td class="px-3 py-3">~6850–6860 mm</td>
+                                    <td class="px-3 py-3">None</td>
+                                    <td class="px-3 py-3">1–2 thin</td>
+                                    <td class="px-3 py-3">26 + (~440-450 lb)</td>
+                                    <td class="px-3 py-3 text-red-700 font-semibold">Maximum control and flat sails</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Step-by-Step Tuning Routine -->
+                <div class="bg-gradient-to-r from-cyan-50 to-blue-50 rounded-xl p-6 mb-8 border-l-4 border-cyan-500">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
+                        <i class="fas fa-balance-scale text-cyan-600"></i>
+                        4. Step-by-Step Tuning Routine
+                    </h2>
+
+                    <div class="space-y-6">
+                        <div class="bg-white rounded-lg p-5 border-l-4 border-cyan-600">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">1. Set chainplate pins for expected wind.</h3>
+                            <p class="text-gray-700">Lower for light; higher for heavy.</p>
+                        </div>
+
+                        <div class="bg-white rounded-lg p-5 border-l-4 border-blue-600">
+                            <h3 class="text-xl font-bold text-gray-900">2. Step mast, attach shrouds, and tension jib halyard to sailing load.</h3>
+                        </div>
+
+                        <div class="bg-white rounded-lg p-5 border-l-4 border-purple-600">
+                            <h3 class="text-xl font-bold text-gray-900 mb-3">3. Insert chocks in mast gate according to wind:</h3>
+                            <ul class="space-y-2 text-gray-700 ml-4">
+                                <li class="flex items-start gap-2">
+                                    <span class="text-purple-600">•</span>
+                                    <span>Light → more front chocks (stiffen).</span>
+                                </li>
+                                <li class="flex items-start gap-2">
+                                    <span class="text-purple-600">•</span>
+                                    <span>Breeze → remove front chocks (let bend).</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="bg-white rounded-lg p-5 border-l-4 border-green-600">
+                            <h3 class="text-xl font-bold text-gray-900">4. Check rake using main halyard to transom.</h3>
+                        </div>
+
+                        <div class="bg-white rounded-lg p-5 border-l-4 border-amber-600">
+                            <h3 class="text-xl font-bold text-gray-900">5. Sight up mast for smooth continuous curve—no sharp kink at deck.</h3>
+                        </div>
+
+                        <div class="bg-white rounded-lg p-5 border-l-4 border-orange-600">
+                            <h3 class="text-xl font-bold text-gray-900 mb-3">6. Sail test:</h3>
+                            <ul class="space-y-2 text-gray-700 ml-4">
+                                <li class="flex items-start gap-2">
+                                    <span class="text-orange-600">•</span>
+                                    <span>If over-powered → remove one front chock.</span>
+                                </li>
+                                <li class="flex items-start gap-2">
+                                    <span class="text-orange-600">•</span>
+                                    <span>If under-powered → add one front chock.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Diagnostic Guide -->
+                <div class="bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl p-6 mb-8 border-l-4 border-green-500">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+                        <i class="fas fa-anchor text-green-600"></i>
+                        5. Diagnostic Guide (On-Water Feel → Adjustment)
+                    </h2>
+
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-sm">
+                            <thead class="bg-green-100">
+                                <tr>
+                                    <th class="px-3 py-2 text-left font-bold text-gray-900">Observation</th>
+                                    <th class="px-3 py-2 text-left font-bold text-gray-900">Cause</th>
+                                    <th class="px-3 py-2 text-left font-bold text-gray-900">Remedy</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="border-b border-gray-200 bg-white">
+                                    <td class="px-3 py-3 text-red-700 font-semibold">Boat feels heavy, heeling early</td>
+                                    <td class="px-3 py-3">Mast too straight, leech tight</td>
+                                    <td class="px-3 py-3 font-semibold text-green-700">Remove front chock</td>
+                                </tr>
+                                <tr class="border-b border-gray-200 bg-green-50">
+                                    <td class="px-3 py-3 text-red-700 font-semibold">Boat lacks drive, slow after tacks</td>
+                                    <td class="px-3 py-3">Mast too bent, sails flat</td>
+                                    <td class="px-3 py-3 font-semibold text-green-700">Add front chock</td>
+                                </tr>
+                                <tr class="border-b border-gray-200 bg-white">
+                                    <td class="px-3 py-3 text-red-700 font-semibold">Poor pointing, jib luff sagging</td>
+                                    <td class="px-3 py-3">Forestay too soft</td>
+                                    <td class="px-3 py-3 font-semibold text-green-700">Add front chock or raise pins</td>
+                                </tr>
+                                <tr class="border-b border-gray-200 bg-green-50">
+                                    <td class="px-3 py-3 text-red-700 font-semibold">Excess weather helm</td>
+                                    <td class="px-3 py-3">Too much rake</td>
+                                    <td class="px-3 py-3 font-semibold text-green-700">Raise pins one hole</td>
+                                </tr>
+                                <tr class="border-b border-gray-200 bg-white">
+                                    <td class="px-3 py-3 text-red-700 font-semibold">Boat lifeless / lee helm</td>
+                                    <td class="px-3 py-3">Mast too upright</td>
+                                    <td class="px-3 py-3 font-semibold text-green-700">Lower pins one hole</td>
+                                </tr>
+                                <tr class="border-b border-gray-200 bg-green-50">
+                                    <td class="px-3 py-3 text-red-700 font-semibold">Still over-powered after chock removal</td>
+                                    <td class="px-3 py-3">Main too full</td>
+                                    <td class="px-3 py-3 font-semibold text-green-700">Add thin chock behind mast to induce extra prebend</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Complementary Controls -->
+                <div class="bg-gradient-to-r from-indigo-50 to-purple-50 rounded-xl p-6 mb-8 border-l-4 border-indigo-500">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+                        <i class="fas fa-puzzle-piece text-indigo-600"></i>
+                        6. Complementary Controls
+                    </h2>
+
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-sm">
+                            <thead class="bg-indigo-100">
+                                <tr>
+                                    <th class="px-4 py-2 text-left font-bold text-gray-900">Control</th>
+                                    <th class="px-4 py-2 text-left font-bold text-gray-900">Adjustment</th>
+                                    <th class="px-4 py-2 text-left font-bold text-gray-900">Purpose</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="border-b border-gray-200 bg-white">
+                                    <td class="px-4 py-3 font-semibold">Vang / Kicker</td>
+                                    <td class="px-4 py-3">Increase to flatten main & control twist in breeze</td>
+                                    <td class="px-4 py-3 text-indigo-700">Major depowering tool once chocks set</td>
+                                </tr>
+                                <tr class="border-b border-gray-200 bg-indigo-50">
+                                    <td class="px-4 py-3 font-semibold">Cunningham</td>
+                                    <td class="px-4 py-3">Use in breeze to flatten luff</td>
+                                    <td class="px-4 py-3 text-indigo-700">Maintain shape as mast bends</td>
+                                </tr>
+                                <tr class="border-b border-gray-200 bg-white">
+                                    <td class="px-4 py-3 font-semibold">Outhaul</td>
+                                    <td class="px-4 py-3">Tighten as wind builds</td>
+                                    <td class="px-4 py-3 text-indigo-700">Flatten foot of main</td>
+                                </tr>
+                                <tr class="border-b border-gray-200 bg-indigo-50">
+                                    <td class="px-4 py-3 font-semibold">Jib Halyard / Rig Tension</td>
+                                    <td class="px-4 py-3">Adjust before sailing</td>
+                                    <td class="px-4 py-3 text-indigo-700">Sets base forestay tension</td>
+                                </tr>
+                                <tr class="border-b border-gray-200 bg-white">
+                                    <td class="px-4 py-3 font-semibold">Jib Cars</td>
+                                    <td class="px-4 py-3">Move aft in breeze, forward in lulls</td>
+                                    <td class="px-4 py-3 text-indigo-700">Controls jib leech twist & slot width</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Key Takeaways -->
+                <div class="bg-gradient-to-br from-slate-800 to-blue-900 rounded-xl p-8 text-white mb-8">
+                    <h2 class="text-3xl font-bold mb-6 flex items-center gap-3">
+                        <i class="fas fa-brain text-amber-400"></i>
+                        7. Key Takeaways
+                    </h2>
+
+                    <div class="space-y-4">
+                        <div class="bg-white/10 rounded-lg p-5 border-l-4 border-amber-400">
+                            <p class="text-gray-100 leading-relaxed text-lg">
+                                <strong class="text-amber-400">Chainplate pins = rake & tension</strong> (coarse tuning).
+                            </p>
+                        </div>
+
+                        <div class="bg-white/10 rounded-lg p-5 border-l-4 border-blue-400">
+                            <p class="text-gray-100 leading-relaxed text-lg">
+                                <strong class="text-blue-400">Chocks = mast bend & leech control</strong> (fine tuning).
+                            </p>
+                        </div>
+
+                        <div class="bg-white/10 rounded-lg p-5 border-l-4 border-green-400">
+                            <p class="text-gray-100 leading-relaxed text-lg">
+                                As wind increases → <strong class="text-green-400">raise pins and remove front chocks</strong>.
+                            </p>
+                        </div>
+
+                        <div class="bg-white/10 rounded-lg p-5 border-l-4 border-purple-400">
+                            <p class="text-gray-100 leading-relaxed text-lg">
+                                In extreme breeze → <strong class="text-purple-400">add a thin behind-mast chock</strong> to promote prebend and flatten main.
+                            </p>
+                        </div>
+
+                        <div class="bg-white/10 rounded-lg p-5 border-l-4 border-cyan-400">
+                            <p class="text-gray-100 leading-relaxed text-lg">
+                                Always <strong class="text-cyan-400">measure and log</strong> your own rake/tension/chock combinations for repeatability.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Keywords -->
+                <div class="mt-8 text-sm text-gray-500 italic">
+                    <strong>Keywords:</strong> GP14 rig tuning, chainplate adjusters, mast gate chocks, mast rake, rig tension, forestay tension, GP14 setup, sailing rig tuning, GP14 rigging guide, mast bend control, technical reference
+                </div>
+            </div>
+
+            <!-- Back to Blog Button -->
+            <div class="mt-12 pt-8 border-t">
+                <a href="blog.html" class="inline-flex items-center gap-2 text-orange-600 hover:text-orange-700 font-semibold text-lg transition-colors">
+                    <i class="fas fa-arrow-left"></i>
+                    Back to Blog
+                </a>
+            </div>
+        </div>
+    </article>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-white py-12 px-4 mt-16">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <i class="fas fa-water text-amber-500 text-xl"></i>
+                        <span class="font-bold text-lg">Donnelly GP14</span>
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Championship-proven GP14 racing and cruising builds. CAD, CFD, and CNC precision craftsmanship.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="font-semibold mb-4 text-amber-500">Contact</h3>
+                    <div class="space-y-3 text-sm">
+                        <div class="flex items-start gap-2 text-gray-400">
+                            <i class="fas fa-map-pin w-4 h-4 mt-1 flex-shrink-0"></i>
+                            <span>13 Ballynacooley Rd<br>Randalstown, Co. Antrim<br>BT41 3NB</span>
+                        </div>
+                        <a href="tel:+442894479569" class="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+                            <i class="fas fa-phone w-4 h-4"></i>
+                            028 9447 9569
+                        </a>
+                        <a href="tel:+447742545699" class="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+                            <i class="fas fa-phone w-4 h-4"></i>
+                            07742 545 699
+                        </a>
+                        <a href="mailto:gp14build@gmail.com" class="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
+                            <i class="fas fa-envelope w-4 h-4"></i>
+                            gp14build@gmail.com
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="font-semibold mb-4 text-amber-500">Quick Links</h3>
+                    <div class="space-y-2 text-sm">
+                        <a href="index.html" class="block text-gray-400 hover:text-white transition-colors">Home</a>
+                        <a href="tuning-guide.html" class="block text-gray-400 hover:text-white transition-colors">Tuning Guide</a>
+                        <a href="blog.html" class="block text-gray-400 hover:text-white transition-colors">Blog</a>
+                        <a href="index.html#contact" class="block text-gray-400 hover:text-white transition-colors">Contact</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-slate-800 pt-8 text-center text-sm text-gray-400">
+                <p>&copy; <span id="current-year"></span> Donnelly GP14 Racing and Cruising Builds. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

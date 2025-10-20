@@ -121,3 +121,6 @@ Try these questions to test the integration:
 The AI assistant is specifically trained on your website content and will provide accurate, helpful responses about your GP14 boats and services.
 
 
+
+
+

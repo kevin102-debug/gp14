@@ -650,67 +650,6 @@
         <p class="text-amber-400 mt-4 text-sm">Loading Championship Builds...</p>
     </div>
 
-    <!-- Claude AI Chat Widget -->
-    <div id="chat-widget" class="fixed bottom-6 right-6 z-50">
-        <!-- Chat Toggle Button -->
-        <button id="chat-toggle" class="w-14 h-14 bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-110 glow flex items-center justify-center group">
-            <i data-lucide="message-circle" class="w-6 h-6 group-hover:scale-110 transition-transform"></i>
-        </button>
-
-        <!-- Chat Container -->
-        <div id="chat-container" class="hidden absolute bottom-16 right-0 w-80 h-96 bg-white rounded-2xl shadow-2xl border border-gray-200 overflow-hidden">
-            <!-- Chat Header -->
-            <div class="bg-gradient-to-r from-amber-500 to-orange-500 text-white p-4 flex items-center justify-between">
-                <div class="flex items-center gap-3">
-                    <div class="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center">
-                        <i data-lucide="brain" class="w-5 h-5"></i>
-                    </div>
-                    <div>
-                        <h3 class="font-semibold text-sm">GP14 Assistant</h3>
-                        <p class="text-xs text-amber-100">Powered by Claude AI</p>
-                    </div>
-                </div>
-                <button id="chat-close" class="text-white/80 hover:text-white transition-colors">
-                    <i data-lucide="x" class="w-5 h-5"></i>
-                </button>
-            </div>
-
-            <!-- Chat Messages -->
-            <div id="chat-messages" class="h-72 overflow-y-auto p-4 space-y-4 bg-gray-50">
-                <!-- Welcome Message -->
-                <div class="flex items-start gap-3">
-                    <div class="w-8 h-8 bg-amber-100 rounded-full flex items-center justify-center flex-shrink-0">
-                        <i data-lucide="brain" class="w-4 h-4 text-amber-600"></i>
-                    </div>
-                    <div class="bg-white rounded-2xl rounded-tl-sm px-4 py-3 shadow-sm max-w-xs">
-                        <p class="text-sm text-gray-700">
-                            Hi! I'm your GP14 assistant powered by Claude AI. Ask me anything about our championship-winning boats, build process, or sailing advice!
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Chat Input -->
-            <div class="p-4 bg-white border-t border-gray-200">
-                <div class="flex gap-2">
-                    <input 
-                        type="text" 
-                        id="chat-input" 
-                        placeholder="Ask about GP14 boats..."
-                        class="flex-1 px-4 py-2 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-transparent text-sm"
-                        maxlength="500"
-                    >
-                    <button id="chat-send" class="w-10 h-10 bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white rounded-full flex items-center justify-center transition-all hover:scale-105">
-                        <i data-lucide="send" class="w-4 h-4"></i>
-                    </button>
-                </div>
-                <p class="text-xs text-gray-500 mt-2 text-center">
-                    Powered by Claude AI • <span id="chat-status">Ready</span>
-                </p>
-            </div>
-        </div>
-    </div>
-
     <!-- Fixed Navigation -->
     <nav id="navbar" class="fixed top-0 w-full z-50 transition-all duration-300 bg-transparent">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -908,11 +847,25 @@
                     for adult and youth sailors.
                 </p>
 
-                <p class="text-lg leading-relaxed">
+                <p class="text-lg leading-relaxed mb-8">
                     Every boat is built to order with custom fit-out options, including through-deck sheeting and Sapele decks.
                     Spray-finished with only the best epoxy, varnish and paint, each boat is RCD-compliant. We use only
                     FSC®-certified woods from sustainable sources—because performance should never compromise the planet.
                 </p>
+
+                <div class="bg-gradient-to-r from-slate-50 to-blue-50 rounded-xl p-6 border-l-4 border-blue-500">
+                    <div class="flex items-start gap-3">
+                        <i data-lucide="map-pin" class="w-6 h-6 text-blue-600 mt-1 flex-shrink-0"></i>
+                        <div>
+                            <h4 class="font-bold text-slate-900 mb-2">Visit Our Workshop</h4>
+                            <p class="text-gray-700 leading-relaxed">
+                                13 Ballynacooley Rd<br>
+                                Randalstown, Co. Antrim<br>
+                                BT41 3NB
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -1397,6 +1350,10 @@
                 <div>
                     <h3 class="font-semibold mb-4 text-amber-500">Contact</h3>
                     <div class="space-y-3 text-sm">
+                        <div class="flex items-start gap-2 text-gray-400">
+                            <i data-lucide="map-pin" class="w-4 h-4 mt-1 flex-shrink-0"></i>
+                            <span>13 Ballynacooley Rd<br>Randalstown, Co. Antrim<br>BT41 3NB</span>
+                        </div>
                         <a href="tel:+442894479569" class="flex items-center gap-2 text-gray-400 hover:text-white transition-colors">
                             <i data-lucide="phone" class="w-4 h-4"></i>
                             028 9447 9569
